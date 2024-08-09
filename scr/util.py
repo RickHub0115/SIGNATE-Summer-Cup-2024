@@ -41,4 +41,11 @@ def japanese_to_int(Age):
         return int(digits[0])
     
     return japanese_to_int_util(non_digits)
-    
+
+def convert_to_second(duration):
+    if '秒' in duration:
+        return int(duration.replace('秒', ''))
+    elif '分' in duration:
+        return int(duration.replace('分', '')) * 60
+    else:
+        return int(duration)
