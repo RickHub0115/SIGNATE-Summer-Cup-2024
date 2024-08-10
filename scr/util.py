@@ -199,6 +199,50 @@ def normalize_monthly_income(income):
         return float(re.sub(r'[^\d\.]', '', income))
     
 
+def divide_customer_info(info):
+    if pd.isna(info):
+        return pd.Series([None, None, None])
+    parts = re.split(r'[、／　 ,./\t\n]+', info)
+    return pd.Series(parts[:3])
+
+def normalize_info_1(info):
+    mappings = {
+        '未婚': 'Single',
+        '独身': 'Single',
+        '結婚済み': 'Married',
+        '離婚済み': 'Divorced'
+    }
+    
+    return mappings.get(info, 'Other')
+
+def normalize_info_2(info):
+    has_car = {'車あり', '車所持', '自家用車あり', '車保有', '乗用車所持', '自動車所有', '自家用車あり'}
+    no_car = {'車未所持', '自動車未所有', '車保有なし', '乗用車なし', '自家用車なし', '車なし'}
+    
+    if info in has_car:
+        return 'Has Car'
+    elif info in no_car:
+        return 'No Car'
+    else:
+        return 'Unknown'
+
+def normalize_info_3(info):
+    no_children = {'子供なし', '子供無し', '無子', '子供ゼロ', '非育児家庭', '子育て状況不明', '子の数不詳', '子供の数不明', 'わからない', '不明'}
+    one_child = {'こども1人', '1児', '子供1人', '子供有り(1人)', '子供有り'}
+    two_children = {'こども2人', '子供2人', '子供有り(2人)', '2児'}
+    three_children = {'こども3人', '子供3人', '子供有り(3人)', '3児'}
+    
+    if info in no_children:
+        return '0'
+    elif info in one_child:
+        return '1'
+    elif info in two_children:
+        return '2'
+    elif info in three_children:
+        return '3'
+    else:
+        return info 
+
 def normalize_customer_info(info):
     info = re.sub(r'[、,／/]', '/', info)
     parts = info.split('/')
