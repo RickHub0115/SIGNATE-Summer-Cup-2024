@@ -49,3 +49,14 @@ def convert_to_second(duration):
         return int(duration.replace('分', '')) * 60
     else:
         return int(duration)
+    
+def normalize_gender(gender):
+    gender = gender.strip().lower().replace('\u3000', '')
+    gender = gender.replace('ｆｅｍａｌｅ', 'female')
+    gender = gender.replace('ｍａｌｅ', 'male')
+    if 'female' in gender:
+        return 'female'
+    elif 'male' in gender:
+        return 'male'
+    else:
+        return gender
