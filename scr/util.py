@@ -74,29 +74,93 @@ def normalize_trips(trip):
     else:
         return trip
 
-def normalize_product_pitched(product):
-    product = product.lower()
-    product = unicodedata.normalize('NFKC', product)
-    product = product.replace('|', 'l').replace('×', 'x').replace('𝘳', 'r').replace('𝘤', 'c')
-    product_dict = {
+def normalize_product_pitched_1(product):
+    # Normalize full-width characters and lowercase all letters
+    product = unicodedata.normalize('NFKC', product).lower()
+    
+    # Replace specific unicode characters and special symbols
+    replacements = {
+        r'[|｜︱︳𐄁𐊡Ⅰ]': 'i',  # Different forms of 'I' and similar symbols
+        r'[×xｘχⅹ╳⤫⤬✕✖]': 'x',  # Forms of 'x'
+        r'[εее]': 'e',          # Greek and Cyrillic 'e'
+        r'[αаа]': 'a',          # Greek and Cyrillic 'a'
+        r'[сϲс]': 'c',          # Cyrillic 'c'
+        r'[βвѵ]': 'b',          # Greek and Cyrillic 'b'
+        r'[ıiі]': 'i',          # Dotless i, Latin and Cyrillic 'i'
+        r'[ԁᗞԀ]': 'd',          # Forms of 'D'
+        r'[ꭰꓢ]': 's',          # Uncommon forms of 'S'
+        r'[ςс]': 's',           # Greek final sigma and Cyrillic 's'
+        r'[ոտռ]': 'n',         # Armenian letters similar to 'n' and 'h'
+        r'[ȿ]': 's'             # Latin 's'
+    }
+    for pattern, repl in replacements.items():
+        product = re.sub(pattern, repl, product)
+    
+    # Define standard product names and map them
+    mappings = {
         'basic': 'Basic',
         'standard': 'Standard',
         'deluxe': 'Deluxe',
         'super deluxe': 'Super Deluxe',
         'king': 'King'
     }
-    
-    for key, value in product_dict.items():
+    for key, value in mappings.items():
         if key in product:
             return value
-    
     return product
 
-def normalize_designation(designation):
-    designation = designation.lower()
+def normalize_product_pitched_2(product):
+    # Specific replacements for common transcription errors
+    replacements = {
+        'super deiuxe': 'Super Deluxe',
+        'super seluxe': 'Super Deluxe',
+        'banic': 'Basic',
+        'deiuxe': 'Deluxe',
+        'seluxe': 'Deluxe',
+        'basis': 'Basic',
+        'ntandard': 'Standard',
+        'iasic': 'Basic',
+        'standars': 'Standard',
+        'basιc': 'Basic',  # Greek letter 'ι' to 'i'
+        'ѕtandard': 'Standard'  # Cyrillic 'ѕ' to Latin 's'
+    }
+    # Apply replacements, matching the entire string
+    if product in replacements:
+        return replacements[product]
+
+    # Handle 'super' prefix to ensure proper placement
+    if 'super' in product and 'deluxe' in product:
+        return 'Super Deluxe'
+    
+    # Map to standardized names
+    standard_mappings = {
+        'basic': 'Basic',
+        'standard': 'Standard',
+        'deluxe': 'Deluxe',
+        'king': 'King'
+    }
+    for key, value in standard_mappings.items():
+        if key in product.lower():
+            return value
+    return product
+
+def normalize_designation_1(designation):
     designation = unicodedata.normalize('NFKC', designation)
-    designation = designation.replace('×', 'x').replace('ｕ', 'u').replace('ѵ', 'v')
-    designation_dict = {
+    replacements = {
+        r'[μµ𝜇𝛍𝝁𝞵𝗌𝘀𝑠]': 'm',
+        r'[αа𝛂𝜶𝝰𝞪𝖺𝗮𝘢𝑎]': 'a',
+        r'[еёε𝜖𝜀𝛆𝝴𝞊𝖾𝗲𝘦𝑒]': 'e',
+        r'[ν𝜈𝜈𝛎𝝂𝞶𝗇𝘯𝑛]': 'n',
+        r'[ѵνѴ𝜈𝜈𝛎𝝂𝞶𝗇𝘯𝑛]': 'v',
+        r'[տ]': 's'
+    }
+    
+    for pattern, repl in replacements.items():
+        designation = re.sub(pattern, repl, designation)
+
+        designation = designation.lower()
+    
+        mappings = {
         'executive': 'Executive',
         'senior manager': 'Senior Manager',
         'avp': 'AVP',
@@ -104,7 +168,56 @@ def normalize_designation(designation):
         'vp': 'VP'
     }
     
-    for key, value in designation_dict.items():
+    for key, value in mappings.items():
         if key in designation:
             return value
     return designation
+
+def normalize_designation_2(designation):
+    # Direct mappings for given designations
+    mappings = {
+        'Executive': 'Executive',
+        'Senior Manager': 'Senior Manager',
+        'AVP': 'AVP',
+        'Manager': 'Manager',
+        'μanager': 'Manager',
+        'VP': 'VP',
+        'e×ecutive': 'Executive',
+        'еxecutive': 'Executive',
+        'senior μanager': 'Senior Manager',
+        'е×ecutive': 'Executive',
+        'տenior μanager': 'Senior Manager'
+    }
+    # Return the normalized designation if it exists, otherwise return 'Other'
+    return mappings.get(designation, 'Other')
+
+def normalize_customer_info(info):
+    info = re.sub(r'[、,／/]', '/', info)
+    parts = info.split('/')
+    normalized_parts = []
+    
+    for part in parts:
+        part = part.strip()
+        if '未婚' in part or '独身' in part:
+            normalized_parts.append('Single')
+        elif '離婚済み' in part:
+            normalized_parts.append('Divorced')
+        elif '結婚済み' in part:
+            normalized_parts.append('Married')
+        
+        if '車未所持' in part or '車保有なし' in part or '自家用車なし' in part:
+            normalized_parts.append('No Car')
+        elif '車あり' in part or '車所持' in part:
+            normalized_parts.append('Has Car')
+        
+        if '子供なし' in part:
+            normalized_parts.append('No Children')
+        elif '子供有り' in part or 'こども' in part:
+            # 子供の人数を抽出
+            num_children = re.search(r'\d+', part)
+            if num_children:
+                normalized_parts.append(f'Children: {num_children.group()}')
+            else:
+                normalized_parts.append('Children')
+
+    return ', '.join(normalized_parts)
