@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import unicodedata
 
 def japanese_to_int_util(str):
     japanese_dict = {
@@ -60,3 +61,50 @@ def normalize_gender(gender):
         return 'male'
     else:
         return gender
+    
+def normalize_trips(trip):
+    if trip.isdigit():
+        return int(trip)
+    elif '半年に' in trip:
+        return int(trip.replace('半年に', '').replace('回', ''))
+    elif '四半期に' in trip:
+        return int(trip.replace('四半期に', '').replace('回', '')) * 2
+    elif '年に' in trip:
+        return int(trip.replace('年に', '').replace('回', '')) * 4
+    else:
+        return trip
+
+def normalize_product_pitched(product):
+    product = product.lower()
+    product = unicodedata.normalize('NFKC', product)
+    product = product.replace('|', 'l').replace('×', 'x').replace('𝘳', 'r').replace('𝘤', 'c')
+    product_dict = {
+        'basic': 'Basic',
+        'standard': 'Standard',
+        'deluxe': 'Deluxe',
+        'super deluxe': 'Super Deluxe',
+        'king': 'King'
+    }
+    
+    for key, value in product_dict.items():
+        if key in product:
+            return value
+    
+    return product
+
+def normalize_designation(designation):
+    designation = designation.lower()
+    designation = unicodedata.normalize('NFKC', designation)
+    designation = designation.replace('×', 'x').replace('ｕ', 'u').replace('ѵ', 'v')
+    designation_dict = {
+        'executive': 'Executive',
+        'senior manager': 'Senior Manager',
+        'avp': 'AVP',
+        'manager': 'Manager',
+        'vp': 'VP'
+    }
+    
+    for key, value in designation_dict.items():
+        if key in designation:
+            return value
+    return designation
