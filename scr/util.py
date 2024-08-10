@@ -191,6 +191,14 @@ def normalize_designation_2(designation):
     # Return the normalized designation if it exists, otherwise return 'Other'
     return mappings.get(designation, 'Other')
 
+def normalize_monthly_income(income):
+    money = re.search(r'(\d+\.?\d*)万円', income)
+    if money:
+        return float(money.group(1)) * 10000
+    else:
+        return float(re.sub(r'[^\d\.]', '', income))
+    
+
 def normalize_customer_info(info):
     info = re.sub(r'[、,／/]', '/', info)
     parts = info.split('/')
