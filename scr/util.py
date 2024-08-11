@@ -200,9 +200,10 @@ def normalize_designation_2(designation):
         'Еxecｕtive': 'Executive', 'Mαnagеr': 'Manager', 'Senior Managе𝙧': 'Senior Manager',
         'Senior Mαnαger': 'Senior Manager', 'АVＰ': 'AVP', 'Sеnior Managеr': 'Senior Manager',
         'Mαnαgеr': 'Manager', 'Exеcｕtivе': 'Executive', 'Sеnio𝙧 Manager': 'Senior Manager',
-        'Senior Mαnager': 'Senior Manager'
+        'Senior Mαnager': 'Senior Manager', 'μanager': 'Manager', 'e×ecutive': 'Executive',
+        'senior μanager': 'Senior Manager'
     }
-
+    
     # Return the normalized designation if it exists, otherwise return the original designation
     return mappings.get(designation, designation)
 
