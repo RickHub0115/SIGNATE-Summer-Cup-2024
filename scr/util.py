@@ -63,6 +63,7 @@ def normalize_gender(gender):
         return gender
     
 def normalize_trips(trip):
+    trip = str(trip)
     if trip.isdigit():
         return int(trip)
     elif '半年に' in trip:
@@ -122,7 +123,9 @@ def normalize_product_pitched_2(product):
         'iasic': 'Basic',
         'standars': 'Standard',
         'basιc': 'Basic',  # Greek letter 'ι' to 'i'
-        'ѕtandard': 'Standard'  # Cyrillic 'ѕ' to Latin 's'
+        'ѕtandard': 'Standard',  # Cyrillic 'ѕ' to Latin 's'
+        'seiuxe': 'Deluxe',
+        'baѕic': 'Basic'
     }
     # Apply replacements, matching the entire string
     if product in replacements:
@@ -174,24 +177,37 @@ def normalize_designation_1(designation):
     return designation
 
 def normalize_designation_2(designation):
-    # Direct mappings for given designations
+    # Expanded mappings for given designations
     mappings = {
-        'Executive': 'Executive',
-        'Senior Manager': 'Senior Manager',
-        'AVP': 'AVP',
-        'Manager': 'Manager',
-        'μanager': 'Manager',
-        'VP': 'VP',
-        'e×ecutive': 'Executive',
-        'еxecutive': 'Executive',
-        'senior μanager': 'Senior Manager',
-        'е×ecutive': 'Executive',
-        'տenior μanager': 'Senior Manager'
+        'AVP': 'AVP', 'Senior Manager': 'Senior Manager', 'Executive': 'Executive',
+        'Manager': 'Manager', 'VP': 'VP', 'Executivе': 'Executive',
+        'Senior Managеr': 'Senior Manager', 'Exеcutivе': 'Executive', 'VＰ': 'VP',
+        'Exеcutive': 'Executive', 'Senio𝙧 Manage𝙧': 'Senior Manager',
+        'Sеnior Manager': 'Senior Manager', 'Execuｔive': 'Executive',
+        'Executiѵe': 'Executive', 'Senio𝙧 Manager': 'Senior Manager', 'АVP': 'AVP',
+        'Mαnager': 'Manager', 'Managеr': 'Manager', 'ΑVP': 'AVP', 'ΑVＰ': 'AVP',
+        'Μαnager': 'Manager', 'Manage𝙧': 'Manager', 'E×ecutive': 'Executive',
+        'Mαnαger': 'Manager', 'Μanager': 'Manager', 'Տenior Manager': 'Senior Manager',
+        'Еxecutive': 'Executive', 'Senior Manage𝙧': 'Senior Manager', 'AVＰ': 'AVP',
+        'Execｕtive': 'Executive', 'Senior Manαger': 'Senior Manager',
+        'Senio𝙧 Manαger': 'Senior Manager', 'Manαger': 'Manager',
+        'Ѕenior Μanage𝙧': 'Senior Manager', 'Exеcuｔive': 'Executive',
+        'Μαnagеr': 'Manager', 'Manαgеr': 'Manager', 'Execｕｔive': 'Executive',
+        'Managе𝙧': 'Manager', 'Տenior Μanager': 'Senior Manager',
+        'Senio𝙧 Managеr': 'Senior Manager', 'Senior Μanager': 'Senior Manager',
+        'Sеnior Managе𝙧': 'Senior Manager', 'Execｕtivе': 'Executive',
+        'Senio𝙧 Mαnage𝙧': 'Senior Manager', 'Ѕenior Manager': 'Senior Manager',
+        'Еxecｕtive': 'Executive', 'Mαnagеr': 'Manager', 'Senior Managе𝙧': 'Senior Manager',
+        'Senior Mαnαger': 'Senior Manager', 'АVＰ': 'AVP', 'Sеnior Managеr': 'Senior Manager',
+        'Mαnαgеr': 'Manager', 'Exеcｕtivе': 'Executive', 'Sеnio𝙧 Manager': 'Senior Manager',
+        'Senior Mαnager': 'Senior Manager'
     }
-    # Return the normalized designation if it exists, otherwise return 'Other'
-    return mappings.get(designation, 'Other')
+
+    # Return the normalized designation if it exists, otherwise return the original designation
+    return mappings.get(designation, designation)
 
 def normalize_monthly_income(income):
+    income = str(income)
     money = re.search(r'(\d+\.?\d*)万円', income)
     if money:
         return float(money.group(1)) * 10000
