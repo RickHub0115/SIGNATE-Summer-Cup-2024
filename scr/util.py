@@ -201,19 +201,24 @@ def normalize_designation_2(designation):
         'Senior Mαnαger': 'Senior Manager', 'АVＰ': 'AVP', 'Sеnior Managеr': 'Senior Manager',
         'Mαnαgеr': 'Manager', 'Exеcｕtivе': 'Executive', 'Sеnio𝙧 Manager': 'Senior Manager',
         'Senior Mαnager': 'Senior Manager', 'μanager': 'Manager', 'e×ecutive': 'Executive',
-        'senior μanager': 'Senior Manager'
+        'senior μanager': 'Senior Manager', 'ѕenior μanager': 'Senior Manager'
     }
     
     # Return the normalized designation if it exists, otherwise return the original designation
     return mappings.get(designation, designation)
 
 def normalize_monthly_income(income):
+    if income is None or income == '':
+        return None
     income = str(income)
     money = re.search(r'(\d+\.?\d*)万円', income)
     if money:
         return float(money.group(1)) * 10000
     else:
-        return float(re.sub(r'[^\d\.]', '', income))
+        cleaned_income = re.sub(r'[^\d\.]', '', income)
+        if cleaned_income == '':
+            return None
+        return float(cleaned_income)
     
 
 def divide_customer_info(info):
@@ -250,13 +255,13 @@ def normalize_info_3(info):
     three_children = {'こども3人', '子供3人', '子供有り(3人)', '3児'}
     
     if info in no_children:
-        return '0'
+        return '0_child'
     elif info in one_child:
-        return '1'
+        return '1_child'
     elif info in two_children:
-        return '2'
+        return '2_child'
     elif info in three_children:
-        return '3'
+        return '3_child'
     else:
         return info 
 
