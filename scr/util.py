@@ -451,6 +451,26 @@ def mapping_first_category_plus_agegroup(df_train, df_test):
     df_test.loc[:, 'AgeGroup'] = df_test.loc[:, 'AgeGroup'].map(mapping)
     return df_train, df_test
 
+def mapping_columns_if_exist(df):
+    mappings = {
+        'TypeofContact': {'No': 0, 'Self Enquiry': 1, 'Company Invited': 2},
+        'Occupation': {'Salaried': 0, 'Small Business': 1, 'Large Business': 2},
+        'Gender': {'male': 1, 'female': 0},
+        'ProductPitched': {'Super Deluxe': 0, 'Standard': 1, 'King': 2, 'Deluxe': 3, 'Basic': 4},
+        'Designation': {'Manager': 0, 'VP': 1, 'AVP': 2, 'Senior Manager': 3, 'Executive': 4},
+        'Marry': {'Married': 0, 'Single': 1, 'Divorced': 2},
+        'Car': {'No Car': 0, 'Has Car': 1},
+        'Child': {'0_child': 0, '1_child': 1, '2_child': 2, '3_child': 3},
+        'AgeGroup': {'10s': 1, '20s': 2, '30s': 3, '40s': 4, '50s': 5, '60s': 6}
+    }
+
+    # Apply mappings to each column if it exists in both dataframes
+    for column, mapping in mappings.items():
+        if column in df.columns:
+            df[column] = df[column].map(mapping)
+
+    return df
+
 def feature_to_int(df_train, df_test):
     column_list_train = df_train.columns
     column_list_test = df_test.columns
