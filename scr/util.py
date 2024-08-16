@@ -295,3 +295,105 @@ def normalize_customer_info(info):
                 normalized_parts.append('Children')
 
     return ', '.join(normalized_parts)
+
+def mapping_first_category(df_train, df_test):
+
+    mapping = {
+        'No': 0,
+        'Self Enquiry': 1,
+        'Company Invited': 2
+    }
+    df_train.loc[:, 'TypeofContact'] = df_train.loc[:, 'TypeofContact'].map(mapping)
+    df_test.loc[:, 'TypeofContact'] = df_test.loc[:, 'TypeofContact'].map(mapping)
+
+    mapping = {
+        'Salaried': 0,
+        'Small Business': 1,
+        'Large Business': 2
+    }
+    df_train.loc[:, 'Occupation'] = df_train.loc[:, 'Occupation'].map(mapping)
+    df_test.loc[:, 'Occupation'] = df_test.loc[:, 'Occupation'].map(mapping)
+
+    mapping = {
+        'male': 0,
+        'female': 1
+    }
+    df_train.loc[:, 'Gender'] = df_train.loc[:, 'Gender'].map(mapping)
+    df_test.loc[:, 'Gender'] = df_test.loc[:, 'Gender'].map(mapping)
+
+    mapping = {
+        'Super Deluxe': 0,
+        'Standard': 1,
+        'King': 2,
+        'Deluxe': 3,
+        'Basic': 4
+    }
+    df_train.loc[:, 'ProductPitched'] = df_train.loc[:, 'ProductPitched'].map(mapping)
+    df_test.loc[:, 'ProductPitched'] = df_test.loc[:, 'ProductPitched'].map(mapping)
+
+    mapping = {
+        'Manager': 0,
+        'VP': 1,
+        'AVP': 2,
+        'Senior Manager': 3,
+        'Executive': 4
+    }
+
+    df_train.loc[:, 'Designation'] = df_train.loc[:, 'Designation'].map(mapping)
+    df_test.loc[:, 'Designation'] = df_test.loc[:, 'Designation'].map(mapping)
+
+    mapping = {
+        'Married': 0,
+        'Single': 1,
+        'Divorced': 2,
+    }
+    df_train.loc[:, 'Marry'] = df_train.loc[:, 'Marry'].map(mapping)
+    df_test.loc[:, 'Marry'] = df_test.loc[:, 'Marry'].map(mapping)
+
+    mapping = {
+        'No Car': 0,
+        'Has Car': 1,
+    }
+    df_train.loc[:, 'Car'] = df_train.loc[:, 'Car'].map(mapping)
+    df_test.loc[:, 'Car'] = df_test.loc[:, 'Car'].map(mapping)
+
+    mapping = {
+        '0_child': 0,
+        '1_child': 1,
+        '2_child': 2,
+        '3_child': 3
+    }
+    df_train.loc[:, 'Child'] = df_train.loc[:, 'Child'].map(mapping)
+    df_test.loc[:, 'Child'] = df_test.loc[:, 'Child'].map(mapping)
+    
+    return df_train, df_test
+
+def feature_to_int(df_train, df_test):
+    column_list_train = df_train.columns
+    column_list_test = df_test.columns
+
+    for col in column_list_train:
+        #df_train[col] = df_train[col].astype(float)
+        df_train[col] = df_train[col].astype(int)
+
+    for col in column_list_test:
+        #df_train[col] = df_train[col].astype(float)
+        df_test[col] = df_test[col].astype(int)
+    
+    return df_train, df_test
+
+def age_to_agegroup(age):
+    if age == 0:
+        return np.nan
+    elif age < 20:
+        return "10s"
+    elif age < 30:
+        return "20s"
+    elif age < 40:
+        return "30s"
+    elif age < 50:
+        return "40s"
+    elif age < 60:
+        return "50s"
+    else:
+        return "60s"
