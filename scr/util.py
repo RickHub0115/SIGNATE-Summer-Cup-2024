@@ -480,3 +480,12 @@ def age_to_agegroup(age):
         return "50s"
     else:
         return "60s"
+
+def convert_type(df_train, df_test, float_columns, int_columns):
+    for col in float_columns:
+        df_train[col] = df_train[col].astype(float)
+        df_test[col] = df_test[col].astype(float)
+    for col in int_columns:
+        df_train[col] = df_train[col].astype(int)
+        df_test[col] = df_test[col].astype(int)
+    return df_train, df_test
