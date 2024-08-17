@@ -42,3 +42,33 @@ def make_TripEasier_Child(child):
         return 1
     else:
         return 0.4
+
+def make_LivingCost_CityTier(citytier):
+    if citytier == 1:
+        return 1.5
+    elif citytier == 2:
+        return 1.3
+    else:
+        return 1
+
+def make_LivingCost_Child(child):
+    if child == '0_child':
+        return 0
+    elif child == '1_child':
+        return 0.1
+    elif child == '2_child':
+        return 0.2
+    else:
+        return 0.3
+
+def make_LivingCost_Marry(marry):
+    if marry == 'Married':
+        return 0.1
+    else:
+        return 0
+
+def make_LivingCost_Car(car):
+    if car == 'Has Car':
+        return 0.05
+    else:
+        return 0
