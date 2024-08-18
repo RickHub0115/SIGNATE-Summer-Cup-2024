@@ -297,6 +297,7 @@ def normalize_customer_info(info):
 
     return ', '.join(normalized_parts)
 
+"""
 def mapping_first_category(df_train, df_test):
 
     mapping = {
@@ -368,7 +369,9 @@ def mapping_first_category(df_train, df_test):
     df_test.loc[:, 'Child'] = df_test.loc[:, 'Child'].map(mapping)
     
     return df_train, df_test
+"""
 
+"""
 def mapping_first_category_plus_agegroup(df_train, df_test):
 
     mapping = {
@@ -450,6 +453,7 @@ def mapping_first_category_plus_agegroup(df_train, df_test):
     df_train.loc[:, 'AgeGroup'] = df_train.loc[:, 'AgeGroup'].map(mapping)
     df_test.loc[:, 'AgeGroup'] = df_test.loc[:, 'AgeGroup'].map(mapping)
     return df_train, df_test
+"""
 
 def mapping_columns_if_exist(df):
     mappings = {
@@ -469,6 +473,57 @@ def mapping_columns_if_exist(df):
         if column in df.columns:
             df[column] = df[column].map(mapping)
 
+    return df
+
+def mapping_EconomicSegment(df):
+    mapping = {
+    'Large BusinessExecutive2': 0,
+    'SalariedSenior Manager1': 1,
+    'Large BusinessExecutive1': 2,
+    'Small BusinessSenior Manager2': 3,
+    'Small BusinessExecutive3': 4,
+    'Small BusinessExecutive2': 5,
+    'Small BusinessAVP3': 6,
+    'Large BusinessSenior Manager1': 7,
+    'Small BusinessSenior Manager1': 8,
+    'Small BusinessAVP1': 9,
+    'Small BusinessAVP2': 10,
+    'Small BusinessExecutive1': 11,
+    'SalariedExecutive2': 12,
+    'SalariedExecutive1': 13,
+    'SalariedAVP2': 14,
+    'SalariedManager2': 15,
+    'SalariedManager1': 16,
+    'SalariedAVP1': 17,
+    'SalariedAVP3': 18,
+    'SalariedSenior Manager3': 19,
+    'SalariedSenior Manager2': 20,
+    'Small BusinessManager2': 21,
+    'Small BusinessSenior Manager3': 22,
+    'SalariedExecutive3': 23,
+    'Small BusinessVP3': 24,
+    'Large BusinessExecutive3': 25,
+    'SalariedManager3': 26,
+    'Large BusinessSenior Manager3': 27,
+    'Large BusinessAVP2': 28,
+    'SalariedVP1': 29,
+    'SalariedVP2': 30,
+    'Large BusinessAVP1': 31,
+    'Small BusinessVP1': 32,
+    'Large BusinessSenior Manager2': 33,
+    'Large BusinessVP1': 34,
+    'Small BusinessManager3': 35,
+    'Small BusinessVP2': 36,
+    'Small BusinessManager1': 37,  # ここで指定されたラベル
+    'SalariedVP3': 38,
+    'Large BusinessManager2': 39,
+    'Large BusinessManager1': 40,
+    'Large BusinessVP2': 41,
+    'Large BusinessManager3': 42,
+    'Large BusinessAVP3': 43
+    }
+    df['EconomicSegment'] = df['EconomicSegment'].map(mapping)
+    
     return df
 
 def feature_to_int(df_train, df_test):

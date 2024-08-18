@@ -72,3 +72,31 @@ def make_LivingCost_Car(car):
         return 0.05
     else:
         return 0
+
+def make_EconomicStability_Occupation(occupation):
+    if occupation == 'Large Business':
+        return 1.2
+    elif occupation == 'Salaried':
+        return 1.1
+    else:
+        return 0.9
+
+def make_EconomicStability_Disignation(designation):
+    if designation == 'VP':
+        return 1.5
+    elif designation == 'AVP':
+        return 1.4
+    elif designation == 'Senior Manager':
+        return 1.3
+    elif designation == 'Manager':
+        return 1.2
+    else:
+        return 1.1
+
+def make_TripFreaqency(trips):
+    if trips <= 4:
+        return 0
+    elif trips <= 8:
+        return 1
+    else:
+        return 2
