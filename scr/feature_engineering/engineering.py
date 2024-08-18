@@ -100,3 +100,11 @@ def make_TripFreaqency(trips):
         return 1
     else:
         return 2
+
+def make_TravelCost_PreferredPropertyStar(star):
+    if star == 3.0:
+        return 1
+    elif star == 4.0:
+        return 1.5
+    else:
+        return 2.0
