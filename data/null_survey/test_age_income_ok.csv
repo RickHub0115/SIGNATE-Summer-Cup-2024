@@ -4,7 +4,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3491,25,Self Enquiry,1,540.0,Salaried,female,1.0,4.0,Basic,3.0,1.0,0,3,Executive,12.468440756144114,Divorced,No Car,0_child,20s
 3492,21,Company Invited,2,420.0,Salaried,male,1.0,4.0,Basic,4.0,1.0,0,3,Senior Manager,12.467959873156758,Divorced,Has Car,0_child,20s
 3493,41,Company Invited,1,420.0,Salaried,male,1.0,4.0,Basic,3.0,1.0,0,4,Executive,12.501838208362393,Single,Has Car,0_child,40s
-3494,45,Company Invited,1,,Small Business,female,1.0,3.0,Deluxe,3.0,24.0,0,4,Manager,13.0,Married,No Car,0_child,40s
+3494,45,Company Invited,1,,Small Business,female,1.0,3.0,Deluxe,3.0,24.0,0,4,Manager,12.668413522179335,Married,No Car,0_child,40s
 3495,44,Self Enquiry,2,480.0,Small Business,male,1.0,3.0,Basic,3.0,5.0,0,4,Executive,12.467498007828475,Married,No Car,0_child,40s
 3496,45,Company Invited,2,960.0,Small Business,male,1.0,3.0,Deluxe,3.0,3.0,0,4,AVP,12.899222326086994,Divorced,Has Car,0_child,40s
 3497,30,Company Invited,1,540.0,Small Business,male,1.0,3.0,Basic,3.0,1.0,0,4,Executive,12.429220196836383,Divorced,Has Car,0_child,30s
@@ -21,7 +21,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3508,38,Company Invited,1,600.0,Small Business,female,1.0,3.0,Basic,3.0,4.0,0,4,Executive,12.483480872303508,Divorced,Has Car,0_child,30s
 3509,36,Company Invited,1,960.0,Large Business,male,1.0,3.0,Basic,4.0,4.0,0,3,Executive,12.611541086966115,Single,No Car,0_child,30s
 3510,39,Company Invited,2,540.0,Large Business,female,1.0,3.0,Basic,3.0,1.0,0,3,Executive,12.454536904824469,Single,No Car,0_child,30s
-3511,33,Company Invited,1,1080.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.466168955516663,Single,Has Car,0_child,30s
+3511,32,Company Invited,1,1080.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.466168955516663,Single,Has Car,0_child,30s
 3512,40,Self Enquiry,2,900.0,Small Business,male,1.0,3.0,Deluxe,4.0,4.0,1,4,AVP,12.899222326086994,Single,Has Car,0_child,40s
 3513,37,Company Invited,1,900.0,Small Business,female,1.0,3.0,Deluxe,3.0,4.0,1,4,Manager,12.611541086966115,Single,No Car,0_child,30s
 3514,38,Self Enquiry,3,540.0,Small Business,female,1.0,3.0,Standard,3.0,1.0,1,3,Manager,12.801747560662248,Married,Has Car,0_child,30s
@@ -69,7 +69,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3556,33,Company Invited,2,780.0,Small Business,male,1.0,3.0,Basic,3.0,2.0,0,1,Executive,12.468440756144114,Divorced,No Car,0_child,30s
 3557,29,Self Enquiry,1,1020.0,Large Business,female,1.0,3.0,Basic,3.0,1.0,0,2,Executive,12.465590555278432,Married,No Car,0_child,20s
 3558,36,Company Invited,2,960.0,Salaried,female,1.0,3.0,Deluxe,3.0,2.0,0,1,Manager,12.84130200632741,Divorced,Has Car,0_child,30s
-3559,33,Company Invited,1,1140.0,Large Business,male,1.0,3.0,Basic,3.0,8.0,0,1,Executive,12.0,Single,Has Car,0_child,30s
+3559,32,Company Invited,1,1140.0,Large Business,male,1.0,3.0,Basic,3.0,8.0,0,1,Executive,12.459281294238387,Single,Has Car,0_child,30s
 3560,23,Self Enquiry,3,900.0,Large Business,male,1.0,3.0,Basic,3.0,2.0,0,2,Executive,12.485297808919125,Single,No Car,0_child,20s
 3561,32,Company Invited,1,900.0,Small Business,female,1.0,3.0,Basic,3.0,4.0,0,2,Executive,12.442057394617267,Single,Has Car,0_child,30s
 3562,50,Self Enquiry,2,1020.0,Small Business,male,1.0,3.0,Deluxe,3.0,2.0,0,1,AVP,12.899222326086994,Married,Has Car,0_child,50s
@@ -118,7 +118,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3605,50,Company Invited,2,840.0,Small Business,female,1.0,4.0,Standard,3.0,2.0,0,3,Senior Manager,12.899222326086994,Divorced,Has Car,0_child,50s
 3606,50,Self Enquiry,2,840.0,Salaried,male,1.0,1.0,Standard,3.0,5.0,0,3,Senior Manager,12.956476429553753,Married,No Car,0_child,50s
 3607,55,Company Invited,1,660.0,Salaried,female,1.0,3.0,Basic,3.0,5.0,0,4,Executive,12.516955975152017,Married,Has Car,0_child,50s
-3608,35,Self Enquiry,1,960.0,Salaried,male,1.0,3.0,Basic,3.0,4.0,0,4,Executive,12.470266005413048,Married,Has Car,0_child,30s
+3608,33,Self Enquiry,1,960.0,Salaried,male,1.0,3.0,Basic,3.0,4.0,0,4,Executive,12.470266005413048,Married,Has Car,0_child,30s
 3609,21,Company Invited,1,840.0,Salaried,female,1.0,2.0,Basic,3.0,2.0,1,4,Executive,12.611541086966115,Single,Has Car,0_child,20s
 3610,30,Company Invited,1,1620.0,Small Business,female,2.0,5.0,Basic,3.0,3.0,0,4,Executive,12.641488064990705,Married,Has Car,0_child,30s
 3611,42,Self Enquiry,1,600.0,Small Business,male,2.0,4.0,Basic,3.0,24.0,0,3,Executive,12.488186745553477,Single,No Car,0_child,40s
@@ -148,7 +148,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3635,28,Company Invited,2,1200.0,Salaried,male,2.0,3.0,Standard,4.0,2.0,0,2,Executive,12.72647526314101,Single,No Car,0_child,20s
 3636,51,Self Enquiry,2,600.0,Salaried,male,2.0,3.0,Standard,3.0,2.0,0,2,Senior Manager,12.821260987319457,Single,No Car,0_child,50s
 3637,30,Self Enquiry,1,840.0,Salaried,female,2.0,3.0,Basic,3.0,1.0,0,1,Executive,12.429220196836383,Single,No Car,0_child,30s
-3638,35,Self Enquiry,1,540.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.500554050044638,Divorced,No Car,0_child,30s
+3638,34,Self Enquiry,1,540.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.500554050044638,Divorced,No Car,0_child,30s
 3639,33,Company Invited,1,900.0,Salaried,male,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.468882964346784,Married,No Car,0_child,30s
 3640,49,Company Invited,2,960.0,Salaried,female,2.0,3.0,Standard,3.0,2.0,0,1,Senior Manager,12.903500650273594,Divorced,Has Car,0_child,40s
 3641,27,Company Invited,2,720.0,Small Business,female,2.0,3.0,Standard,3.0,8.0,0,2,Senior Manager,12.734863916258998,Single,Has Car,0_child,20s
@@ -175,7 +175,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3662,26,Company Invited,2,660.0,Salaried,female,1.0,3.0,Basic,3.0,5.0,1,1,Executive,12.45459540294377,Divorced,Has Car,0_child,20s
 3663,59,Self Enquiry,1,1080.0,Small Business,male,1.0,3.0,King,3.0,6.0,0,2,VP,13.025138565861878,Married,Has Car,0_child,50s
 3664,57,Self Enquiry,2,780.0,Small Business,male,2.0,4.0,Standard,3.0,2.0,0,1,Senior Manager,12.829510626672995,Divorced,Has Car,0_child,50s
-3665,35,Self Enquiry,1,1020.0,Large Business,female,2.0,4.0,Basic,3.0,2.0,0,2,Executive,12.516021219211028,Divorced,No Car,0_child,30s
+3665,34,Self Enquiry,1,1020.0,Large Business,female,2.0,4.0,Basic,3.0,2.0,0,2,Executive,12.516021219211028,Divorced,No Car,0_child,30s
 3666,50,Self Enquiry,3,660.0,Salaried,female,2.0,4.0,Standard,3.0,3.0,0,2,Senior Manager,12.800961805669841,Divorced,Has Car,0_child,50s
 3667,41,Self Enquiry,1,480.0,Large Business,female,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.482172906988527,Divorced,Has Car,0_child,40s
 3668,51,Self Enquiry,3,1260.0,Small Business,female,2.0,4.0,Deluxe,3.0,2.0,0,2,Manager,12.717835829649069,Divorced,No Car,0_child,50s
@@ -199,9 +199,9 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3686,35,Self Enquiry,1,1140.0,Salaried,male,2.0,4.0,Deluxe,3.0,2.0,0,5,AVP,12.899222326086994,Divorced,Has Car,0_child,30s
 3687,60,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Deluxe,3.0,2.0,0,3,AVP,12.994532278619134,Single,Has Car,0_child,60s
 3688,58,Company Invited,3,900.0,Small Business,male,2.0,3.0,Standard,3.0,5.0,0,3,Senior Manager,12.880039555090077,Single,Has Car,0_child,50s
-3689,35,Company Invited,1,540.0,Large Business,male,2.0,3.0,Basic,3.0,4.0,0,4,Executive,12.490390314719026,Married,Has Car,0_child,30s
+3689,33,Company Invited,1,540.0,Large Business,male,2.0,3.0,Basic,3.0,4.0,0,4,Executive,12.490390314719026,Married,Has Car,0_child,30s
 3690,33,Company Invited,2,1080.0,Small Business,male,2.0,3.0,Basic,3.0,4.0,0,4,Executive,12.429220196836383,Divorced,No Car,0_child,30s
-3691,38,Self Enquiry,1,480.0,Small Business,female,2.0,3.0,Deluxe,3.0,8.0,0,4,Manager,12.582318327135665,Single,No Car,0_child,30s
+3691,39,Self Enquiry,1,480.0,Small Business,female,2.0,3.0,Deluxe,3.0,8.0,0,4,Manager,12.582318327135665,Single,No Car,0_child,30s
 3692,49,Company Invited,2,780.0,Large Business,male,2.0,3.0,Standard,3.0,7.0,0,3,Senior Manager,12.847284220201537,Married,No Car,0_child,40s
 3693,36,Company Invited,1,900.0,Large Business,female,2.0,3.0,Basic,3.0,5.0,0,4,Executive,12.4363546573007,Divorced,No Car,0_child,30s
 3694,30,Company Invited,3,780.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,3,Executive,12.469862815987277,Married,No Car,0_child,30s
@@ -246,7 +246,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3733,45,Company Invited,1,1560.0,Small Business,female,2.0,4.0,Deluxe,4.0,3.0,0,2,Manager,12.83728059054759,Single,No Car,1_child,40s
 3734,21,Company Invited,2,,Large Business,male,2.0,5.0,Basic,4.0,3.0,0,4,Executive,12.611541086966115,Single,No Car,1_child,20s
 3735,49,Company Invited,1,660.0,Small Business,male,2.0,5.0,Basic,3.0,2.0,0,4,Executive,12.783517125036383,Married,Has Car,1_child,40s
-3736,34,Company Invited,1,900.0,Salaried,female,2.0,5.0,Basic,3.0,2.0,0,3,Executive,12.611541086966115,Married,No Car,1_child,30s
+3736,33,Company Invited,1,900.0,Salaried,female,2.0,5.0,Basic,3.0,2.0,0,3,Executive,12.611541086966115,Married,No Car,1_child,30s
 3737,45,Self Enquiry,1,1020.0,Small Business,male,2.0,3.0,Standard,3.0,1.0,0,1,AVP,12.532552264689867,Single,No Car,0_child,40s
 3738,47,Company Invited,2,660.0,Small Business,male,2.0,1.0,Deluxe,3.0,1.0,0,2,Manager,12.65866304060503,Married,No Car,0_child,40s
 3739,52,Self Enquiry,1,420.0,Salaried,male,3.0,4.0,Basic,3.0,6.0,0,1,AVP,12.899222326086994,Divorced,No Car,0_child,50s
@@ -257,7 +257,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3744,53,Company Invited,1,600.0,Small Business,female,2.0,3.0,Deluxe,3.0,5.0,0,1,AVP,12.611541086966115,Single,Has Car,0_child,50s
 3745,35,Self Enquiry,1,840.0,Small Business,male,2.0,3.0,Deluxe,3.0,4.0,0,1,VP,12.461125632240067,Divorced,Has Car,0_child,30s
 3746,50,Self Enquiry,1,1800.0,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,2,AVP,12.966448475585567,Divorced,No Car,0_child,50s
-3747,30,Self Enquiry,2,1020.0,Small Business,male,2.0,3.0,Basic,3.0,1.0,0,2,Executive,12.0,Single,Has Car,0_child,30s
+3747,29,Self Enquiry,2,1020.0,Small Business,male,2.0,3.0,Basic,3.0,1.0,0,2,Executive,12.467365843379305,Single,Has Car,0_child,20s
 3748,44,Self Enquiry,1,420.0,Salaried,male,2.0,3.0,King,3.0,1.0,0,1,VP,12.523256479761772,Married,Has Car,0_child,40s
 3749,50,Self Enquiry,2,900.0,Large Business,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.49348968286325,Single,Has Car,0_child,50s
 3750,37,Company Invited,2,420.0,Salaried,male,2.0,3.0,Standard,3.0,2.0,1,2,Senior Manager,12.84933606416058,Single,No Car,0_child,30s
@@ -334,7 +334,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3821,45,Self Enquiry,2,480.0,Small Business,male,3.0,4.0,Standard,3.0,,0,1,Senior Manager,13.060490101343552,Single,No Car,2_child,40s
 3822,30,Self Enquiry,2,720.0,Small Business,male,3.0,4.0,Basic,3.0,3.0,0,2,Executive,12.669856974961993,Married,Has Car,2_child,30s
 3823,36,Self Enquiry,2,780.0,Small Business,female,3.0,4.0,Deluxe,3.0,3.0,0,1,Manager,12.79415371153648,Single,Has Car,2_child,30s
-3824,34,Self Enquiry,1,720.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.506902900549656,Divorced,No Car,0_child,30s
+3824,33,Self Enquiry,1,720.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.506902900549656,Divorced,No Car,0_child,30s
 3825,39,Company Invited,1,840.0,Salaried,male,3.0,4.0,Deluxe,3.0,2.0,0,2,Manager,13.081543466215237,Divorced,Has Car,1_child,30s
 3826,33,Self Enquiry,1,1800.0,Large Business,female,3.0,4.0,Standard,3.0,2.0,0,2,Senior Manager,13.047598882094126,Single,Has Car,2_child,30s
 3827,50,Self Enquiry,2,420.0,Salaried,female,2.0,3.0,Standard,3.0,8.0,0,4,Senior Manager,12.474231626611967,Single,No Car,0_child,50s
@@ -383,10 +383,10 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3870,43,Self Enquiry,2,1020.0,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.799015439168965,Divorced,No Car,0_child,40s
 3871,30,Self Enquiry,3,840.0,Salaried,male,2.0,4.0,Basic,3.0,8.0,0,4,Executive,12.5247845251437,Married,No Car,1_child,30s
 3872,32,Self Enquiry,2,1020.0,Small Business,male,3.0,1.0,Basic,3.0,2.0,0,2,Executive,12.468440756144114,Married,No Car,0_child,30s
-3873,33,Self Enquiry,1,840.0,Small Business,female,3.0,3.0,Basic,3.0,2.0,0,2,Executive,12.497644642406321,Single,Has Car,0_child,30s
+3873,32,Self Enquiry,1,840.0,Small Business,female,3.0,3.0,Basic,3.0,2.0,0,2,Executive,12.497644642406321,Single,Has Car,0_child,30s
 3874,50,Self Enquiry,1,420.0,Salaried,male,3.0,2.0,Standard,3.0,4.0,0,1,Senior Manager,12.812070257734321,Single,No Car,0_child,50s
 3875,30,Company Invited,1,960.0,Large Business,female,3.0,3.0,Basic,3.0,2.0,0,2,Executive,12.611541086966115,Divorced,Has Car,0_child,30s
-3876,36,Self Enquiry,1,540.0,Large Business,female,3.0,1.0,Basic,3.0,7.0,0,1,Executive,13.0,Divorced,No Car,0_child,30s
+3876,35,Self Enquiry,1,540.0,Large Business,female,3.0,1.0,Basic,3.0,7.0,0,1,Executive,12.525851837328961,Divorced,No Car,0_child,30s
 3877,23,Self Enquiry,3,720.0,Small Business,female,3.0,5.0,Basic,3.0,3.0,0,2,Executive,12.642264158755912,Single,Has Car,2_child,20s
 3878,10,Self Enquiry,2,960.0,Salaried,male,3.0,5.0,Deluxe,3.0,3.0,0,2,Manager,12.926533391225579,Single,No Car,2_child,10s
 3879,31,Self Enquiry,2,960.0,Salaried,female,3.0,5.0,Deluxe,3.0,2.0,0,2,Manager,12.830073371381298,Married,No Car,2_child,30s
@@ -409,7 +409,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3896,36,Self Enquiry,1,420.0,Salaried,male,2.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.767774826860986,Married,Has Car,1_child,30s
 3897,40,Company Invited,1,480.0,Large Business,male,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.804224846604955,Single,No Car,1_child,40s
 3898,41,Company Invited,1,540.0,Salaried,male,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,12.692383215941218,Single,No Car,1_child,40s
-3899,40,Company Invited,1,780.0,Small Business,male,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,13.0,Divorced,No Car,1_child,40s
+3899,39,Company Invited,1,780.0,Small Business,male,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,12.672218323426726,Divorced,No Car,1_child,30s
 3900,32,Company Invited,1,600.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.468440756144114,Divorced,Has Car,0_child,30s
 3901,32,Company Invited,2,900.0,Small Business,male,2.0,1.0,Basic,4.0,2.0,0,3,Executive,12.468440756144114,Single,No Car,0_child,30s
 3902,53,Company Invited,3,1020.0,Small Business,male,2.0,3.0,Basic,4.0,24.0,0,4,Executive,12.437545412419746,Single,Has Car,0_child,50s
@@ -442,12 +442,12 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3929,60,Self Enquiry,1,1920.0,Small Business,male,2.0,1.0,Deluxe,4.0,6.0,0,3,AVP,13.146189273040635,Divorced,Has Car,0_child,60s
 3930,37,Company Invited,1,300.0,Small Business,male,3.0,5.0,Basic,3.0,4.0,0,3,Executive,12.718330243531495,Married,No Car,0_child,30s
 3931,30,Company Invited,1,480.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,5,Manager,12.44164266745242,Married,Has Car,1_child,30s
-3932,40,Company Invited,1,600.0,Small Business,male,2.0,3.0,Deluxe,3.0,6.0,0,4,Manager,13.0,Divorced,Has Car,1_child,40s
+3932,38,Company Invited,1,600.0,Small Business,male,2.0,3.0,Deluxe,3.0,6.0,0,4,Manager,12.646569529329259,Divorced,Has Car,1_child,30s
 3933,37,Company Invited,1,1620.0,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,3,Manager,12.689057280767436,Single,Has Car,1_child,30s
 3934,43,Self Enquiry,1,540.0,Large Business,male,2.0,3.0,Deluxe,3.0,2.0,0,4,Manager,12.673294283624557,Married,No Car,1_child,40s
 3935,26,Self Enquiry,1,1200.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.474002164432063,Married,No Car,1_child,20s
 3936,32,Self Enquiry,1,1440.0,Small Business,female,2.0,3.0,Basic,3.0,1.0,0,4,Executive,12.513211697313464,Married,No Car,1_child,30s
-3937,34,Self Enquiry,1,900.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,3,Executive,12.464838134473807,Married,Has Car,1_child,30s
+3937,33,Self Enquiry,1,900.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,3,Executive,12.464838134473807,Married,Has Car,1_child,30s
 3938,32,Self Enquiry,1,,Small Business,male,2.0,3.0,Deluxe,3.0,2.0,0,3,Manager,12.45488784222084,Single,Has Car,1_child,30s
 3939,30,Self Enquiry,1,960.0,Small Business,male,2.0,3.0,Basic,3.0,1.0,0,4,Executive,12.440160093353624,Married,Has Car,1_child,30s
 3940,32,Self Enquiry,1,900.0,Small Business,male,2.0,3.0,Standard,4.0,3.0,0,4,Senior Manager,12.81439968295672,Single,No Car,1_child,30s
@@ -467,7 +467,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 3954,19,Company Invited,2,1140.0,Small Business,male,2.0,4.0,Deluxe,3.0,2.0,0,2,Manager,12.651866826692766,Married,No Car,1_child,10s
 3955,31,Self Enquiry,2,480.0,Small Business,male,2.0,4.0,Basic,3.0,2.0,0,1,Executive,12.44908156727021,Divorced,Has Car,1_child,30s
 3956,31,Company Invited,2,600.0,Small Business,female,2.0,4.0,Standard,3.0,7.0,0,2,Senior Manager,12.657756360217721,Single,Has Car,1_child,30s
-3957,34,Self Enquiry,3,1140.0,Salaried,male,3.0,4.0,Basic,3.0,8.0,0,2,Executive,12.730389847278175,Divorced,Has Car,2_child,30s
+3957,32,Self Enquiry,3,1140.0,Salaried,male,3.0,4.0,Basic,3.0,8.0,0,2,Executive,12.730389847278175,Divorced,Has Car,2_child,30s
 3958,31,Self Enquiry,2,480.0,Small Business,male,2.0,4.0,Basic,3.0,1.0,0,2,Executive,12.468440756144114,Married,Has Car,1_child,30s
 3959,20,Self Enquiry,2,540.0,Small Business,female,2.0,4.0,Basic,3.0,2.0,0,2,Manager,12.644330802262578,Single,No Car,1_child,20s
 3960,51,Self Enquiry,3,780.0,Salaried,female,2.0,4.0,Deluxe,3.0,12.0,0,1,Manager,12.974410783032631,Divorced,No Car,1_child,50s
@@ -562,7 +562,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4049,55,Self Enquiry,3,720.0,Large Business,male,3.0,4.0,Deluxe,3.0,5.0,0,4,Manager,12.711567083746276,Divorced,No Car,2_child,50s
 4050,45,Self Enquiry,2,1680.0,Small Business,female,3.0,4.0,Deluxe,3.0,5.0,0,3,Manager,12.631882717503581,Married,Has Car,2_child,40s
 4051,20,Self Enquiry,2,840.0,Small Business,female,3.0,4.0,Basic,3.0,3.0,0,3,Executive,12.472968932544157,Single,Has Car,2_child,20s
-4052,36,Self Enquiry,1,600.0,Salaried,male,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.789519350861466,Married,No Car,2_child,30s
+4052,35,Self Enquiry,1,600.0,Salaried,male,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.789519350861466,Married,No Car,2_child,30s
 4053,33,Self Enquiry,3,660.0,Small Business,male,2.0,4.0,Basic,3.0,2.0,1,2,Manager,12.780523561066705,Single,Has Car,1_child,30s
 4054,28,Self Enquiry,2,660.0,Small Business,male,3.0,4.0,Basic,3.0,12.0,1,2,Executive,12.650136478525221,Married,No Car,2_child,20s
 4055,45,Self Enquiry,2,540.0,Small Business,male,3.0,4.0,King,3.0,,1,2,VP,13.120553740999618,Divorced,Has Car,2_child,40s
@@ -581,7 +581,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4068,25,Company Invited,1,900.0,Salaried,female,2.0,4.0,Deluxe,3.0,8.0,0,2,Manager,12.776037553250163,Married,No Car,1_child,20s
 4069,39,Self Enquiry,1,900.0,Salaried,male,3.0,5.0,Deluxe,4.0,3.0,0,1,Manager,12.784989534458257,Divorced,No Car,2_child,30s
 4070,27,Self Enquiry,1,960.0,Salaried,male,2.0,4.0,Basic,3.0,2.0,0,1,Executive,12.795943248635048,Single,No Car,1_child,20s
-4071,36,Self Enquiry,1,480.0,Small Business,male,2.0,4.0,Basic,4.0,7.0,0,1,Executive,12.507901676207812,Divorced,No Car,1_child,30s
+4071,35,Self Enquiry,1,480.0,Small Business,male,2.0,4.0,Basic,4.0,7.0,0,1,Executive,12.507901676207812,Divorced,No Car,1_child,30s
 4072,49,Company Invited,1,480.0,Salaried,male,3.0,5.0,Deluxe,3.0,5.0,0,2,Manager,12.630019247183606,Single,No Car,2_child,40s
 4073,33,Self Enquiry,1,780.0,Small Business,male,3.0,4.0,Basic,3.0,,0,2,Executive,12.740725141387694,Divorced,Has Car,2_child,30s
 4074,42,Self Enquiry,1,1920.0,Salaried,male,3.0,3.0,Deluxe,3.0,5.0,0,4,AVP,12.893518604970362,Married,Has Car,0_child,40s
@@ -629,7 +629,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4116,42,Self Enquiry,2,1620.0,Small Business,male,3.0,4.0,Deluxe,3.0,5.0,0,3,Manager,12.73693910351294,Single,Has Car,2_child,40s
 4117,42,Self Enquiry,2,1860.0,Salaried,female,2.0,5.0,Deluxe,3.0,3.0,0,2,Manager,12.748167258818878,Single,Has Car,1_child,40s
 4118,39,Self Enquiry,2,1020.0,Small Business,female,2.0,5.0,Basic,3.0,3.0,0,1,Executive,12.664655050188745,Divorced,Has Car,1_child,30s
-4119,44,Self Enquiry,2,480.0,Small Business,female,2.0,5.0,Deluxe,3.0,2.0,0,1,Manager,13.0,Divorced,No Car,1_child,40s
+4119,44,Self Enquiry,2,480.0,Small Business,female,2.0,5.0,Deluxe,3.0,2.0,0,1,Manager,12.756203624276527,Divorced,No Car,1_child,40s
 4120,46,Self Enquiry,2,600.0,Small Business,male,3.0,5.0,Basic,3.0,2.0,0,2,Executive,12.63564808291354,Married,No Car,2_child,40s
 4121,31,Self Enquiry,2,1980.0,Small Business,male,2.0,5.0,Deluxe,3.0,3.0,0,2,Manager,12.77489166777273,Single,No Car,1_child,30s
 4122,33,Self Enquiry,2,840.0,Salaried,male,3.0,4.0,Deluxe,3.0,4.0,0,3,Manager,12.676485566004827,Married,No Car,2_child,30s
@@ -665,7 +665,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4152,50,Self Enquiry,2,720.0,Small Business,male,3.0,5.0,Deluxe,3.0,7.0,0,2,Manager,12.751911103268881,Single,No Car,2_child,50s
 4153,47,Self Enquiry,2,960.0,Small Business,male,3.0,5.0,Basic,4.0,3.0,0,1,Executive,12.899222326086994,Divorced,Has Car,2_child,40s
 4154,28,Company Invited,2,1860.0,Small Business,male,2.0,5.0,Standard,3.0,8.0,0,2,Senior Manager,12.80768276909682,Married,Has Car,1_child,20s
-4155,34,No,2,,Small Business,male,2.0,5.0,Deluxe,4.0,3.0,0,1,Manager,13.0,Divorced,No Car,1_child,30s
+4155,34,No,2,,Small Business,male,2.0,5.0,Deluxe,4.0,3.0,0,1,Manager,12.70247967682258,Divorced,No Car,1_child,30s
 4156,42,Company Invited,2,1080.0,Salaried,male,3.0,5.0,Standard,3.0,3.0,0,2,AVP,13.050310829878917,Single,Has Car,2_child,40s
 4157,31,Self Enquiry,3,960.0,Small Business,male,2.0,5.0,Standard,3.0,1.0,0,2,Senior Manager,12.962584220710841,Single,Has Car,1_child,30s
 4158,43,Self Enquiry,2,,Small Business,female,2.0,5.0,Deluxe,3.0,7.0,0,2,Manager,12.608887578357328,Single,Has Car,1_child,40s
@@ -682,7 +682,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4169,30,Company Invited,1,960.0,Large Business,male,3.0,5.0,Basic,4.0,7.0,0,2,Executive,12.712878199633275,Single,Has Car,2_child,30s
 4170,30,Self Enquiry,1,480.0,Small Business,male,3.0,5.0,Basic,3.0,3.0,0,2,Executive,12.657613124979061,Single,Has Car,2_child,30s
 4171,58,Self Enquiry,1,720.0,Small Business,male,3.0,5.0,King,4.0,6.0,0,1,VP,13.253788052456926,Married,Has Car,2_child,50s
-4172,36,Company Invited,1,,Small Business,female,2.0,5.0,Basic,3.0,5.0,0,1,Executive,13.0,Married,Has Car,1_child,30s
+4172,34,Company Invited,1,,Small Business,female,2.0,5.0,Basic,3.0,5.0,0,1,Executive,12.609121193875106,Married,Has Car,1_child,30s
 4173,30,Self Enquiry,1,600.0,Small Business,male,3.0,5.0,Basic,3.0,3.0,0,1,Executive,12.671129685551314,Divorced,No Car,2_child,30s
 4174,50,Company Invited,1,900.0,Salaried,male,3.0,5.0,Deluxe,3.0,12.0,0,1,AVP,12.847244720374674,Single,Has Car,2_child,50s
 4175,35,Self Enquiry,1,360.0,Salaried,female,3.0,5.0,Deluxe,4.0,12.0,0,2,Manager,12.899222326086994,Single,No Car,2_child,30s
@@ -706,23 +706,23 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4193,61,Company Invited,2,540.0,Salaried,male,2.0,3.0,Deluxe,3.0,4.0,0,2,AVP,13.263057059488244,Divorced,No Car,0_child,60s
 4194,50,Self Enquiry,1,660.0,Salaried,male,2.0,3.0,Deluxe,3.0,4.0,0,2,AVP,13.235693848424024,Divorced,Has Car,0_child,50s
 4195,38,Company Invited,1,1020.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.479665935538852,Married,No Car,0_child,30s
-4196,32,Self Enquiry,3,540.0,Small Business,female,2.0,3.0,Basic,3.0,5.0,0,1,Executive,12.482116000105245,Divorced,Has Car,0_child,30s
+4196,31,Self Enquiry,3,540.0,Small Business,female,2.0,3.0,Basic,3.0,5.0,0,1,Executive,12.482116000105245,Divorced,Has Car,0_child,30s
 4197,33,Company Invited,1,660.0,Small Business,male,3.0,5.0,Basic,3.0,4.0,0,3,Executive,12.662471650116863,Single,No Car,2_child,30s
 4198,45,Company Invited,1,780.0,Small Business,male,3.0,5.0,Standard,3.0,2.0,0,3,Senior Manager,12.706987317667625,Married,Has Car,2_child,40s
 4199,42,Self Enquiry,1,900.0,Salaried,female,3.0,5.0,Deluxe,3.0,2.0,0,3,AVP,13.0958160959785,Married,Has Car,2_child,40s
 4200,38,Self Enquiry,1,540.0,Small Business,male,3.0,5.0,Basic,3.0,2.0,1,4,Executive,12.665744965109528,Single,No Car,2_child,30s
 4201,30,Self Enquiry,1,540.0,Large Business,male,3.0,5.0,Basic,3.0,3.0,0,3,Executive,12.723126831467185,Single,Has Car,2_child,30s
 4202,20,Self Enquiry,2,840.0,Small Business,male,1.0,3.0,Basic,3.0,4.0,0,2,Executive,12.443004697047286,Single,Has Car,0_child,20s
-4203,37,Company Invited,1,900.0,Salaried,male,2.0,3.0,Basic,3.0,1.0,0,1,Executive,12.552852292101369,Married,No Car,0_child,30s
+4203,35,Company Invited,1,900.0,Salaried,male,2.0,3.0,Basic,3.0,1.0,0,1,Executive,12.552852292101369,Married,No Car,0_child,30s
 4204,24,Self Enquiry,2,420.0,Small Business,male,2.0,4.0,Deluxe,3.0,2.0,0,3,Manager,12.77357440018972,Single,No Car,1_child,20s
 4205,48,Self Enquiry,2,600.0,Small Business,male,3.0,4.0,Deluxe,3.0,5.0,0,3,AVP,13.017171736375268,Single,No Car,1_child,40s
 4206,25,Self Enquiry,2,840.0,Small Business,male,3.0,4.0,Standard,3.0,3.0,0,5,Senior Manager,12.947011873258845,Divorced,Has Car,2_child,20s
 4207,50,Self Enquiry,2,2100.0,Small Business,male,2.0,4.0,Deluxe,3.0,5.0,0,3,AVP,12.836003097666206,Married,Has Car,1_child,50s
 4208,25,Self Enquiry,2,1500.0,Salaried,female,2.0,4.0,Deluxe,3.0,2.0,0,3,Manager,12.73670383776449,Single,No Car,1_child,20s
-4209,30,Company Invited,2,840.0,Salaried,male,2.0,4.0,Basic,3.0,8.0,0,3,Executive,12.478924035060254,Single,Has Car,1_child,30s
+4209,28,Company Invited,2,840.0,Salaried,male,2.0,4.0,Basic,3.0,8.0,0,3,Executive,12.478924035060254,Single,Has Car,1_child,20s
 4210,56,Self Enquiry,2,720.0,Salaried,male,2.0,4.0,Standard,3.0,5.0,1,5,Senior Manager,12.840984067416693,Divorced,No Car,1_child,50s
 4211,32,Self Enquiry,2,720.0,Salaried,male,2.0,4.0,Basic,3.0,5.0,0,4,Executive,13.016771723925103,Married,Has Car,1_child,30s
-4212,41,Company Invited,1,,Small Business,female,2.0,5.0,Deluxe,3.0,7.0,0,4,Manager,13.0,Single,Has Car,1_child,40s
+4212,41,Company Invited,1,,Small Business,female,2.0,5.0,Deluxe,3.0,7.0,0,4,Manager,12.7305059434399,Single,Has Car,1_child,40s
 4213,45,Self Enquiry,1,900.0,Salaried,female,3.0,4.0,King,3.0,20.0,0,4,VP,13.024410909830248,Married,No Car,2_child,40s
 4214,42,Self Enquiry,1,1020.0,Salaried,male,2.0,4.0,Deluxe,3.0,2.0,0,4,AVP,12.961703894534244,Single,Has Car,1_child,40s
 4215,52,Self Enquiry,1,960.0,Salaried,male,2.0,5.0,King,3.0,2.0,0,5,VP,13.151681373955482,Divorced,Has Car,0_child,50s
@@ -737,7 +737,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4224,29,Self Enquiry,1,420.0,Salaried,male,3.0,4.0,King,3.0,5.0,0,3,VP,12.953923423777331,Married,No Car,2_child,20s
 4225,57,Company Invited,1,420.0,Large Business,male,2.0,3.0,Deluxe,3.0,4.0,0,4,Manager,12.706850963741102,Married,Has Car,1_child,50s
 4226,20,Self Enquiry,1,,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,3,Manager,12.619459625919513,Married,Has Car,1_child,20s
-4227,37,Company Invited,1,1380.0,Salaried,female,2.0,3.0,Basic,3.0,6.0,0,4,Manager,12.526310239164912,Single,Has Car,1_child,30s
+4227,36,Company Invited,1,1380.0,Salaried,female,2.0,3.0,Basic,3.0,6.0,0,4,Manager,12.526310239164912,Single,Has Car,1_child,30s
 4228,46,Self Enquiry,1,540.0,Salaried,female,2.0,3.0,Deluxe,3.0,8.0,1,4,Manager,12.745415752854521,Married,Has Car,1_child,40s
 4229,54,Self Enquiry,2,540.0,Small Business,male,2.0,4.0,King,3.0,,0,3,VP,13.122365377402328,Married,No Car,1_child,50s
 4230,33,Self Enquiry,3,780.0,Salaried,male,3.0,4.0,King,3.0,4.0,0,3,VP,13.1627776088005,Single,No Car,2_child,30s
@@ -823,15 +823,15 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4310,25,Self Enquiry,1,1680.0,Salaried,male,2.0,4.0,Basic,4.0,3.0,0,4,Executive,12.636526257407946,Married,Has Car,1_child,20s
 4311,49,Self Enquiry,1,480.0,Salaried,male,2.0,4.0,Standard,3.0,2.0,0,4,Senior Manager,12.96924949325197,Single,No Car,1_child,40s
 4312,35,Self Enquiry,1,480.0,Salaried,female,3.0,4.0,Basic,3.0,1.0,0,4,Executive,12.646859851416027,Single,Has Car,2_child,30s
-4313,42,Self Enquiry,1,1380.0,Salaried,male,2.0,4.0,Deluxe,3.0,2.0,0,4,Manager,13.0,Married,Has Car,1_child,40s
-4314,34,Self Enquiry,1,1020.0,Salaried,male,3.0,4.0,Basic,3.0,7.0,0,5,Executive,12.661806189704627,Single,Has Car,2_child,30s
+4313,42,Self Enquiry,1,1380.0,Salaried,male,2.0,4.0,Deluxe,3.0,2.0,0,4,Manager,12.743662276150848,Married,Has Car,1_child,40s
+4314,32,Self Enquiry,1,1020.0,Salaried,male,3.0,4.0,Basic,3.0,7.0,0,5,Executive,12.661806189704627,Single,Has Car,2_child,30s
 4315,36,Company Invited,1,1980.0,Salaried,female,2.0,5.0,Deluxe,3.0,12.0,0,3,Manager,12.693305127066681,Married,No Car,1_child,30s
 4316,34,Company Invited,2,840.0,Small Business,female,3.0,3.0,Standard,3.0,1.0,0,2,Senior Manager,12.880383531743824,Married,Has Car,2_child,30s
 4317,32,Company Invited,2,900.0,Small Business,male,3.0,3.0,Standard,4.0,8.0,0,1,Senior Manager,12.73821739318872,Married,Has Car,2_child,30s
 4318,31,Company Invited,2,960.0,Salaried,female,3.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.654744103323234,Married,Has Car,2_child,30s
 4319,51,Self Enquiry,2,1860.0,Small Business,male,3.0,3.0,Standard,4.0,2.0,0,2,Senior Manager,12.821477179580077,Married,No Car,2_child,50s
 4320,30,Company Invited,2,540.0,Small Business,male,3.0,3.0,Basic,3.0,3.0,0,2,Executive,12.44837547998418,Single,Has Car,2_child,30s
-4321,40,Self Enquiry,2,780.0,Salaried,male,3.0,3.0,Deluxe,3.0,4.0,0,1,Manager,13.0,Married,No Car,2_child,40s
+4321,40,Self Enquiry,2,780.0,Salaried,male,3.0,3.0,Deluxe,3.0,4.0,0,1,Manager,12.735246097300948,Married,No Car,2_child,40s
 4322,36,Self Enquiry,2,900.0,Small Business,male,3.0,4.0,Deluxe,3.0,2.0,0,2,Manager,12.658138220582392,Married,No Car,2_child,30s
 4323,36,Self Enquiry,2,2160.0,Salaried,male,3.0,3.0,Standard,3.0,20.0,0,2,Senior Manager,12.856288838372969,Married,No Car,2_child,30s
 4324,34,Company Invited,2,960.0,Small Business,male,3.0,4.0,Standard,3.0,8.0,0,1,Senior Manager,12.899222326086994,Divorced,Has Car,2_child,30s
@@ -849,7 +849,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4336,40,Company Invited,3,,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.644330802262578,Married,Has Car,2_child,40s
 4337,31,Company Invited,2,960.0,Salaried,female,3.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.777986783497887,Married,Has Car,2_child,30s
 4338,44,Self Enquiry,2,480.0,Salaried,female,3.0,4.0,Deluxe,3.0,5.0,0,1,Manager,12.753864519980691,Divorced,Has Car,2_child,40s
-4339,46,Company Invited,2,600.0,Salaried,male,3.0,3.0,Deluxe,3.0,16.0,0,1,Manager,13.0,Single,No Car,2_child,40s
+4339,46,Company Invited,2,600.0,Salaried,male,3.0,3.0,Deluxe,3.0,16.0,0,1,Manager,12.744960011573268,Single,No Car,2_child,40s
 4340,40,Company Invited,1,1080.0,Salaried,female,3.0,3.0,Deluxe,3.0,3.0,0,2,AVP,12.932282192414917,Married,Has Car,2_child,40s
 4341,44,Self Enquiry,1,540.0,Small Business,male,3.0,4.0,Basic,3.0,3.0,0,1,Executive,12.678311275300475,Single,No Car,2_child,40s
 4342,55,Self Enquiry,1,660.0,Salaried,male,3.0,4.0,Basic,3.0,2.0,0,1,Executive,12.698681344109602,Single,Has Car,2_child,50s
@@ -906,7 +906,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4393,38,Self Enquiry,2,1620.0,Small Business,female,1.0,4.0,Deluxe,4.0,1.0,0,3,AVP,13.081543466215237,Divorced,No Car,0_child,30s
 4394,28,Self Enquiry,1,900.0,Small Business,male,1.0,4.0,Standard,5.0,1.0,0,4,Senior Manager,12.80957133861555,Married,Has Car,0_child,20s
 4395,50,Company Invited,1,1320.0,Large Business,male,1.0,4.0,Standard,4.0,8.0,0,4,Senior Manager,12.86989657110514,Single,Has Car,0_child,50s
-4396,20,Self Enquiry,1,960.0,Large Business,female,3.0,4.0,Basic,3.0,2.0,0,4,Executive,13.0,Single,No Car,0_child,20s
+4396,20,Self Enquiry,1,960.0,Large Business,female,3.0,4.0,Basic,3.0,2.0,0,4,Executive,12.587911871487094,Single,No Car,0_child,20s
 4397,28,Company Invited,1,720.0,Small Business,male,2.0,2.0,Deluxe,3.0,3.0,0,2,Manager,12.789393799306346,Single,No Car,1_child,20s
 4398,50,Self Enquiry,1,420.0,Salaried,male,1.0,4.0,Standard,4.0,5.0,0,3,Senior Manager,12.82995280988608,Married,Has Car,0_child,50s
 4399,40,Company Invited,1,960.0,Salaried,male,1.0,4.0,Standard,4.0,1.0,0,3,Senior Manager,12.560616319926597,Married,Has Car,0_child,40s
@@ -915,7 +915,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4402,35,Self Enquiry,3,420.0,Small Business,female,2.0,4.0,Basic,3.0,2.0,0,1,Executive,12.492307421152985,Divorced,Has Car,1_child,30s
 4403,27,Company Invited,2,840.0,Small Business,male,1.0,4.0,Basic,3.0,1.0,0,2,Executive,12.47692387057048,Single,Has Car,0_child,20s
 4404,50,Self Enquiry,3,600.0,Small Business,female,1.0,5.0,Standard,3.0,2.0,0,1,Senior Manager,12.894724738303838,Married,Has Car,0_child,50s
-4405,47,Self Enquiry,1,1740.0,Large Business,male,2.0,4.0,Deluxe,3.0,1.0,0,1,Manager,13.0,Married,Has Car,1_child,40s
+4405,47,Self Enquiry,1,1740.0,Large Business,male,2.0,4.0,Deluxe,3.0,1.0,0,1,Manager,12.763367633037772,Married,Has Car,1_child,40s
 4406,53,Company Invited,1,420.0,Salaried,female,1.0,4.0,Deluxe,3.0,3.0,0,1,AVP,12.773191642429595,Married,Has Car,0_child,50s
 4407,27,Self Enquiry,2,960.0,Small Business,female,2.0,2.0,Deluxe,3.0,4.0,0,4,Manager,12.757500719718378,Single,No Car,1_child,20s
 4408,33,Company Invited,2,,Small Business,female,2.0,3.0,Deluxe,3.0,4.0,0,4,Manager,12.611541086966115,Married,No Car,1_child,30s
@@ -938,10 +938,10 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4425,44,Company Invited,1,960.0,Small Business,male,1.0,3.0,Basic,4.0,1.0,0,4,Manager,12.534174231517603,Married,No Car,0_child,40s
 4426,31,Self Enquiry,1,,Small Business,female,1.0,3.0,Basic,4.0,1.0,0,3,Executive,12.423765368032354,Single,Has Car,0_child,30s
 4427,25,Company Invited,1,540.0,Small Business,female,1.0,3.0,Basic,4.0,1.0,0,4,Executive,12.442353523036505,Divorced,No Car,0_child,20s
-4428,34,Company Invited,1,1020.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,3,Executive,12.523201863504683,Divorced,Has Car,0_child,30s
+4428,33,Company Invited,1,1020.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,3,Executive,12.523201863504683,Divorced,Has Car,0_child,30s
 4429,53,Company Invited,1,1320.0,Large Business,female,1.0,3.0,Standard,4.0,2.0,0,4,Senior Manager,12.969913583583338,Single,Has Car,0_child,50s
 4430,27,Company Invited,2,1140.0,Small Business,female,1.0,3.0,Standard,4.0,8.0,0,3,Senior Manager,12.7933202762906,Married,Has Car,0_child,20s
-4431,31,Company Invited,3,900.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.468440756144114,Single,Has Car,0_child,30s
+4431,30,Company Invited,3,900.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.468440756144114,Single,Has Car,0_child,30s
 4432,31,Company Invited,2,,Small Business,male,3.0,5.0,Deluxe,3.0,3.0,0,2,Manager,12.656131824923387,Single,No Car,2_child,30s
 4433,33,Self Enquiry,2,1560.0,Salaried,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.794611805014993,Single,No Car,1_child,30s
 4434,32,Company Invited,2,,Salaried,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.624753374686957,Married,No Car,1_child,30s
@@ -965,8 +965,8 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4452,41,Self Enquiry,2,780.0,Salaried,female,2.0,4.0,Deluxe,3.0,7.0,0,2,Manager,12.787802113710708,Single,No Car,1_child,40s
 4453,34,Company Invited,2,1140.0,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.62554256025557,Divorced,No Car,1_child,30s
 4454,28,Company Invited,2,1380.0,Small Business,male,2.0,3.0,Basic,3.0,5.0,0,2,Executive,12.50317644380156,Married,Has Car,1_child,20s
-4455,34,Company Invited,1,,Small Business,male,2.0,3.0,Basic,3.0,1.0,0,4,Executive,12.431038535376421,Married,Has Car,1_child,30s
-4456,38,Company Invited,1,480.0,Large Business,male,2.0,1.0,Deluxe,3.0,1.0,0,4,Manager,13.0,Married,Has Car,1_child,30s
+4455,33,Company Invited,1,,Small Business,male,2.0,3.0,Basic,3.0,1.0,0,4,Executive,12.431038535376421,Married,Has Car,1_child,30s
+4456,37,Company Invited,1,480.0,Large Business,male,2.0,1.0,Deluxe,3.0,1.0,0,4,Manager,12.63028821770759,Married,Has Car,1_child,30s
 4457,51,Self Enquiry,2,1020.0,Small Business,female,3.0,3.0,Deluxe,3.0,5.0,0,5,Manager,12.86939443831781,Married,Has Car,2_child,50s
 4458,40,Self Enquiry,2,1680.0,Small Business,female,2.0,3.0,Deluxe,3.0,5.0,0,1,Manager,12.927736823705708,Divorced,Has Car,1_child,40s
 4459,29,Self Enquiry,2,1500.0,Salaried,male,3.0,4.0,Deluxe,3.0,3.0,0,5,Manager,12.716846267944117,Single,No Car,2_child,20s
@@ -1010,7 +1010,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4497,20,Self Enquiry,2,1500.0,Large Business,male,2.0,3.0,Deluxe,3.0,3.0,1,1,Manager,12.647149397827512,Single,No Car,1_child,20s
 4498,52,Company Invited,2,600.0,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,1,2,AVP,12.701244384055908,Married,Has Car,2_child,50s
 4499,36,Self Enquiry,1,1860.0,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.669290805460887,Married,No Car,1_child,30s
-4500,33,Self Enquiry,1,1200.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.51177634847975,Single,Has Car,1_child,30s
+4500,32,Self Enquiry,1,1200.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.51177634847975,Single,Has Car,1_child,30s
 4501,20,Self Enquiry,3,660.0,Small Business,male,3.0,4.0,Standard,4.0,2.0,0,2,Senior Manager,12.87063000423541,Single,No Car,2_child,20s
 4502,30,Self Enquiry,2,540.0,Small Business,male,2.0,4.0,Deluxe,3.0,4.0,0,2,Manager,12.826369524275863,Single,No Car,1_child,30s
 4503,39,Self Enquiry,2,2040.0,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,1,1,Manager,12.611541086966115,Divorced,No Car,1_child,30s
@@ -1066,16 +1066,16 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4553,50,Self Enquiry,2,1380.0,Small Business,female,3.0,3.0,Deluxe,3.0,2.0,0,3,Manager,12.721112377456368,Divorced,Has Car,2_child,50s
 4554,37,Self Enquiry,3,720.0,Small Business,female,3.0,3.0,Standard,4.0,1.0,0,3,Senior Manager,12.814277216815054,Divorced,Has Car,1_child,30s
 4555,28,Self Enquiry,3,660.0,Large Business,male,3.0,3.0,Standard,3.0,3.0,0,4,Senior Manager,12.821260987319457,Single,No Car,2_child,20s
-4556,24,Company Invited,2,,Salaried,male,3.0,3.0,Deluxe,4.0,5.0,0,4,Manager,13.0,Married,Has Car,2_child,20s
+4556,24,Company Invited,2,,Salaried,male,3.0,3.0,Deluxe,4.0,5.0,0,4,Manager,12.668775491713197,Married,Has Car,2_child,20s
 4557,49,Company Invited,2,960.0,Salaried,male,3.0,3.0,King,3.0,12.0,1,3,VP,13.172582995607835,Married,No Car,2_child,40s
 4558,38,Self Enquiry,1,780.0,Small Business,female,2.0,3.0,Deluxe,3.0,4.0,0,1,AVP,13.106754185355477,Single,Has Car,1_child,30s
 4559,41,Company Invited,1,1800.0,Salaried,male,2.0,3.0,King,3.0,3.0,0,2,VP,13.10821577029826,Married,Has Car,1_child,40s
 4560,50,Self Enquiry,1,900.0,Small Business,male,2.0,4.0,King,3.0,3.0,0,1,VP,13.304686600863562,Single,No Car,1_child,50s
 4561,36,Self Enquiry,2,540.0,Small Business,female,1.0,3.0,Deluxe,3.0,1.0,1,1,AVP,12.507624338573352,Divorced,Has Car,0_child,30s
-4562,36,Company Invited,2,540.0,Salaried,female,2.0,3.0,Basic,4.0,2.0,1,1,Executive,12.518603415951345,Married,Has Car,1_child,30s
+4562,34,Company Invited,2,540.0,Salaried,female,2.0,3.0,Basic,4.0,2.0,1,1,Executive,12.518603415951345,Married,Has Car,1_child,30s
 4563,32,Company Invited,2,840.0,Salaried,female,1.0,3.0,Standard,3.0,16.0,1,2,Senior Manager,12.485638117317439,Single,No Car,0_child,30s
 4564,42,Self Enquiry,2,480.0,Salaried,male,1.0,3.0,King,4.0,24.0,1,1,VP,13.118809068324833,Married,Has Car,0_child,40s
-4565,39,Self Enquiry,2,600.0,Salaried,female,1.0,3.0,Deluxe,3.0,2.0,1,1,Manager,13.0,Married,Has Car,0_child,30s
+4565,39,Self Enquiry,2,600.0,Salaried,female,1.0,3.0,Deluxe,3.0,2.0,1,1,Manager,12.65533018815983,Married,Has Car,0_child,30s
 4566,52,Self Enquiry,2,1020.0,Salaried,male,2.0,3.0,King,3.0,6.0,0,5,VP,13.155171264580288,Married,Has Car,0_child,50s
 4567,34,Company Invited,1,1080.0,Large Business,female,3.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.656801070867559,Married,No Car,2_child,30s
 4568,41,Self Enquiry,1,1500.0,Small Business,female,3.0,3.0,Deluxe,4.0,12.0,0,3,Manager,12.802821804800747,Married,No Car,2_child,40s
@@ -1154,7 +1154,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4641,52,Self Enquiry,1,540.0,Small Business,female,1.0,5.0,Standard,4.0,4.0,0,1,Senior Manager,12.986408479032105,Divorced,Has Car,0_child,50s
 4642,52,Company Invited,2,540.0,Salaried,female,1.0,3.0,Deluxe,4.0,2.0,0,2,AVP,13.130006097275075,Single,Has Car,0_child,50s
 4643,49,Self Enquiry,1,780.0,Salaried,male,2.0,4.0,King,3.0,6.0,0,5,VP,13.172183487188114,Married,Has Car,0_child,40s
-4644,32,Self Enquiry,3,480.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,3,Executive,12.463795385538898,Married,No Car,1_child,30s
+4644,30,Self Enquiry,3,480.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,3,Executive,12.463795385538898,Married,No Car,1_child,30s
 4645,32,No,2,960.0,Small Business,male,1.0,3.0,Basic,3.0,20.0,0,3,Executive,12.76537695639022,Single,No Car,0_child,30s
 4646,18,Company Invited,2,960.0,Large Business,male,2.0,3.0,Basic,4.0,2.0,0,3,Executive,12.611541086966115,Single,No Car,1_child,10s
 4647,30,Company Invited,2,900.0,Small Business,female,2.0,4.0,Basic,3.0,2.0,0,4,Executive,12.497980775607868,Single,Has Car,1_child,30s
@@ -1194,7 +1194,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4681,36,Self Enquiry,2,420.0,Small Business,female,2.0,4.0,Deluxe,3.0,1.0,0,1,Manager,12.92302423947028,Divorced,Has Car,0_child,30s
 4682,21,Self Enquiry,2,1320.0,Small Business,female,2.0,4.0,Basic,3.0,3.0,0,1,Executive,12.468440756144114,Divorced,No Car,1_child,20s
 4683,24,Self Enquiry,2,540.0,Salaried,female,1.0,3.0,Basic,3.0,2.0,1,4,Executive,12.479837065204217,Married,No Car,0_child,20s
-4684,57,Company Invited,2,2100.0,Salaried,male,1.0,3.0,Deluxe,3.0,6.0,1,5,Manager,13.0,Married,No Car,0_child,50s
+4684,57,Company Invited,2,2100.0,Salaried,male,1.0,3.0,Deluxe,3.0,6.0,1,5,Manager,12.696108694054605,Married,No Car,0_child,50s
 4685,38,Company Invited,2,840.0,Small Business,female,2.0,4.0,Basic,3.0,5.0,0,2,Executive,12.611541086966115,Married,No Car,0_child,30s
 4686,32,Self Enquiry,2,1200.0,Salaried,female,1.0,3.0,Deluxe,3.0,1.0,1,3,Manager,12.502172935154075,Married,No Car,0_child,30s
 4687,29,Company Invited,2,1380.0,Salaried,female,2.0,3.0,Basic,3.0,2.0,1,4,Executive,12.421651657725443,Single,No Car,1_child,20s
@@ -1224,7 +1224,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4711,58,Self Enquiry,3,420.0,Salaried,male,2.0,4.0,King,3.0,4.0,0,2,AVP,12.899222326086994,Divorced,Has Car,1_child,50s
 4712,45,Self Enquiry,2,360.0,Salaried,male,2.0,4.0,King,3.0,1.0,0,2,VP,12.925218901958736,Single,No Car,1_child,40s
 4713,29,Self Enquiry,2,780.0,Small Business,male,2.0,4.0,Basic,3.0,2.0,1,2,Executive,12.512659883856552,Single,Has Car,0_child,20s
-4714,32,Self Enquiry,1,540.0,Small Business,male,1.0,3.0,Basic,3.0,2.0,0,4,Executive,12.468940629263656,Single,No Car,0_child,30s
+4714,31,Self Enquiry,1,540.0,Small Business,male,1.0,3.0,Basic,3.0,2.0,0,4,Executive,12.468940629263656,Single,No Car,0_child,30s
 4715,40,Self Enquiry,1,540.0,Small Business,female,3.0,5.0,Deluxe,3.0,3.0,0,1,AVP,13.23311016104138,Single,Has Car,0_child,40s
 4716,33,Self Enquiry,2,840.0,Small Business,male,2.0,5.0,Basic,4.0,7.0,0,2,Executive,12.461009394168869,Married,No Car,0_child,30s
 4717,37,Self Enquiry,2,1920.0,Small Business,male,2.0,4.0,Deluxe,3.0,2.0,0,2,AVP,12.655509980960666,Divorced,Has Car,0_child,30s
@@ -1247,7 +1247,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4734,54,Self Enquiry,2,960.0,Large Business,male,2.0,4.0,Standard,3.0,8.0,0,1,Senior Manager,12.785661914512781,Divorced,Has Car,1_child,50s
 4735,33,Self Enquiry,3,720.0,Small Business,male,2.0,4.0,Deluxe,3.0,3.0,0,1,Manager,12.834763968202514,Single,No Car,1_child,30s
 4736,24,Self Enquiry,2,600.0,Salaried,male,2.0,4.0,Basic,3.0,2.0,0,1,Executive,12.440516111648813,Divorced,Has Car,1_child,20s
-4737,31,Company Invited,2,960.0,Small Business,female,2.0,4.0,Basic,3.0,3.0,0,2,Executive,12.644330802262578,Single,No Car,1_child,30s
+4737,30,Company Invited,2,960.0,Small Business,female,2.0,4.0,Basic,3.0,3.0,0,2,Executive,12.644330802262578,Single,No Car,1_child,30s
 4738,29,Company Invited,2,540.0,Small Business,male,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.611541086966115,Single,Has Car,1_child,20s
 4739,42,Self Enquiry,2,1620.0,Small Business,male,3.0,4.0,Deluxe,3.0,7.0,0,3,Manager,12.750171523634405,Single,No Car,2_child,40s
 4740,24,Self Enquiry,1,900.0,Salaried,male,2.0,4.0,Basic,3.0,3.0,0,3,Executive,12.779382807454194,Single,Has Car,1_child,20s
@@ -1255,7 +1255,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4742,28,Self Enquiry,2,900.0,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.766662244871606,Single,No Car,2_child,20s
 4743,41,Self Enquiry,2,1320.0,Small Business,male,3.0,2.0,Deluxe,3.0,7.0,0,2,Manager,12.685998758706702,Single,No Car,2_child,40s
 4744,31,Company Invited,2,600.0,Salaried,female,2.0,4.0,Standard,3.0,5.0,1,1,Executive,12.648740406235481,Divorced,Has Car,1_child,30s
-4745,31,Self Enquiry,2,960.0,Small Business,male,2.0,4.0,Basic,4.0,4.0,1,2,Executive,12.548548254368903,Single,No Car,1_child,30s
+4745,30,Self Enquiry,2,960.0,Small Business,male,2.0,4.0,Basic,4.0,4.0,1,2,Executive,12.548548254368903,Single,No Car,1_child,30s
 4746,46,Self Enquiry,2,,Small Business,male,3.0,1.0,Deluxe,3.0,3.0,0,1,Manager,12.72941263692845,Married,Has Car,2_child,40s
 4747,54,Self Enquiry,2,840.0,Small Business,male,3.0,1.0,Basic,3.0,5.0,0,1,Executive,12.707214532903535,Married,Has Car,2_child,50s
 4748,54,Self Enquiry,1,420.0,Salaried,male,2.0,3.0,King,3.0,2.0,0,2,VP,13.162892849143967,Married,Has Car,0_child,50s
@@ -1268,7 +1268,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4755,30,Company Invited,1,660.0,Small Business,female,2.0,5.0,Basic,3.0,2.0,0,2,Executive,12.468440756144114,Single,No Car,0_child,30s
 4756,33,Company Invited,1,840.0,Salaried,female,2.0,4.0,Standard,3.0,8.0,0,1,Executive,12.80269791243277,Single,Has Car,0_child,30s
 4757,55,Self Enquiry,1,1140.0,Small Business,male,2.0,4.0,Super Deluxe,3.0,1.0,0,1,AVP,12.475607295078877,Divorced,Has Car,1_child,50s
-4758,34,Self Enquiry,1,480.0,Large Business,female,2.0,4.0,Basic,3.0,7.0,0,2,Executive,13.0,Single,No Car,1_child,30s
+4758,33,Self Enquiry,1,480.0,Large Business,female,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.60444201319975,Single,No Car,1_child,30s
 4759,56,Self Enquiry,1,1560.0,Salaried,male,2.0,4.0,Standard,3.0,7.0,0,2,Senior Manager,13.014468541958173,Divorced,No Car,1_child,50s
 4760,43,Company Invited,1,360.0,Salaried,male,2.0,5.0,Standard,4.0,16.0,0,2,Senior Manager,12.997346490421064,Single,No Car,1_child,40s
 4761,50,Self Enquiry,1,660.0,Salaried,male,3.0,2.0,Deluxe,3.0,5.0,0,2,Manager,12.815705056111618,Single,No Car,2_child,50s
@@ -1278,7 +1278,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4765,43,Self Enquiry,1,660.0,Small Business,male,2.0,4.0,Basic,3.0,2.0,1,1,Executive,12.486941561048708,Single,No Car,1_child,40s
 4766,24,Company Invited,1,600.0,Salaried,male,2.0,4.0,Basic,3.0,3.0,1,1,Executive,12.629037076770123,Single,Has Car,0_child,20s
 4767,50,Self Enquiry,2,480.0,Salaried,male,2.0,4.0,King,3.0,2.0,0,2,VP,13.183535613958322,Married,Has Car,0_child,50s
-4768,32,Company Invited,3,540.0,Salaried,male,2.0,2.0,Basic,3.0,2.0,0,4,Executive,13.0,Married,Has Car,1_child,30s
+4768,29,Company Invited,3,540.0,Salaried,male,2.0,2.0,Basic,3.0,2.0,0,4,Executive,12.528042146200253,Married,Has Car,1_child,20s
 4769,31,Self Enquiry,3,600.0,Salaried,male,3.0,1.0,Basic,3.0,2.0,0,1,Executive,12.899222326086994,Divorced,Has Car,2_child,30s
 4770,40,Self Enquiry,2,1680.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.745197054748889,Married,No Car,1_child,40s
 4771,44,Company Invited,3,600.0,Salaried,female,2.0,3.0,Deluxe,3.0,1.0,0,1,Manager,12.611541086966115,Single,No Car,1_child,40s
@@ -1368,7 +1368,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4855,50,Self Enquiry,2,840.0,Salaried,male,2.0,3.0,Deluxe,3.0,1.0,0,5,Manager,12.762457505348316,Single,Has Car,1_child,50s
 4856,33,Self Enquiry,2,600.0,Salaried,male,2.0,3.0,Deluxe,3.0,8.0,0,4,Manager,12.658424520193709,Married,No Car,1_child,30s
 4857,45,Self Enquiry,2,1260.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,0,4,Manager,12.687251103150645,Married,Has Car,1_child,40s
-4858,38,Self Enquiry,3,720.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,0,3,Manager,13.0,Divorced,Has Car,1_child,30s
+4858,37,Self Enquiry,3,720.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,0,3,Manager,12.66951993538422,Divorced,Has Car,1_child,30s
 4859,32,Company Invited,2,,Salaried,male,2.0,3.0,Deluxe,4.0,5.0,0,4,Manager,12.603105636382113,Married,No Car,1_child,30s
 4860,30,Company Invited,2,600.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,1,4,Executive,12.487734130562686,Single,No Car,1_child,30s
 4861,29,Company Invited,2,1860.0,Salaried,male,2.0,3.0,Deluxe,3.0,3.0,1,4,Manager,12.755207990699361,Divorced,No Car,1_child,20s
@@ -1381,7 +1381,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4868,33,Self Enquiry,1,480.0,Small Business,female,3.0,4.0,Basic,3.0,2.0,0,3,Executive,12.666502466779113,Married,Has Car,2_child,30s
 4869,40,No,1,1020.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.611541086966115,Divorced,Has Car,1_child,40s
 4870,38,Company Invited,1,1500.0,Large Business,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.78440083082269,Married,No Car,1_child,30s
-4871,35,Self Enquiry,1,,Small Business,female,2.0,3.0,Deluxe,3.0,5.0,0,4,Manager,13.0,Divorced,No Car,1_child,30s
+4871,35,Self Enquiry,1,,Small Business,female,2.0,3.0,Deluxe,3.0,5.0,0,4,Manager,12.66560255329987,Divorced,No Car,1_child,30s
 4872,41,No,1,,Small Business,male,2.0,4.0,Deluxe,3.0,3.0,0,4,Manager,12.611541086966115,Married,No Car,1_child,40s
 4873,32,Company Invited,1,540.0,Small Business,female,2.0,3.0,Deluxe,3.0,7.0,0,4,Manager,12.611541086966115,Divorced,Has Car,1_child,30s
 4874,22,Self Enquiry,2,,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.653258544120462,Married,No Car,1_child,20s
@@ -1390,7 +1390,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4877,30,Company Invited,1,780.0,Salaried,female,2.0,3.0,Standard,3.0,2.0,0,5,Senior Manager,12.760348487010086,Married,Has Car,1_child,30s
 4878,39,Self Enquiry,1,420.0,Salaried,male,2.0,3.0,Deluxe,3.0,2.0,0,4,Manager,12.611541086966115,Single,Has Car,1_child,30s
 4879,43,Self Enquiry,1,900.0,Salaried,male,2.0,3.0,Standard,3.0,8.0,0,3,Senior Manager,12.961633434949833,Single,No Car,1_child,40s
-4880,37,Self Enquiry,2,840.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,1,4,Manager,13.0,Married,Has Car,1_child,30s
+4880,37,Self Enquiry,2,840.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,1,4,Manager,12.66930717912329,Married,Has Car,1_child,30s
 4881,40,Self Enquiry,1,360.0,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,1,4,Manager,12.899222326086994,Married,No Car,2_child,40s
 4882,38,Self Enquiry,1,480.0,Salaried,male,2.0,3.0,Basic,4.0,5.0,1,4,Executive,12.462113110707119,Married,No Car,1_child,30s
 4883,39,Self Enquiry,2,720.0,Small Business,male,2.0,5.0,Deluxe,3.0,7.0,0,2,Manager,12.877475114167824,Married,Has Car,1_child,30s
@@ -1429,7 +1429,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4916,54,Company Invited,2,960.0,Salaried,male,2.0,3.0,Standard,3.0,3.0,0,3,Senior Manager,13.029921280714712,Married,No Car,1_child,50s
 4917,56,Self Enquiry,2,780.0,Salaried,male,1.0,3.0,Standard,3.0,5.0,0,4,Senior Manager,12.973192610534966,Married,No Car,0_child,50s
 4918,28,Company Invited,2,960.0,Small Business,male,2.0,3.0,Deluxe,3.0,1.0,1,3,Manager,12.722455797587601,Married,No Car,1_child,20s
-4919,37,Self Enquiry,2,1800.0,Salaried,male,1.0,3.0,Deluxe,3.0,4.0,1,3,Manager,12.540528565035292,Married,No Car,0_child,30s
+4919,36,Self Enquiry,2,1800.0,Salaried,male,1.0,3.0,Deluxe,3.0,4.0,1,3,Manager,12.540528565035292,Married,No Car,0_child,30s
 4920,40,Self Enquiry,2,420.0,Small Business,male,3.0,4.0,Deluxe,3.0,4.0,0,1,Manager,12.869742095562174,Single,No Car,2_child,40s
 4921,55,Company Invited,2,1260.0,Large Business,male,3.0,4.0,Deluxe,3.0,7.0,0,1,Manager,12.728567913362156,Married,No Car,2_child,50s
 4922,42,Self Enquiry,2,540.0,Small Business,male,3.0,4.0,Deluxe,3.0,7.0,0,1,Manager,12.730700577689493,Married,No Car,2_child,40s
@@ -1463,7 +1463,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 4950,33,Self Enquiry,2,780.0,Salaried,male,3.0,4.0,Standard,3.0,3.0,0,1,Senior Manager,12.798061579629174,Divorced,Has Car,0_child,30s
 4951,28,Self Enquiry,3,480.0,Small Business,male,3.0,5.0,Deluxe,3.0,8.0,0,1,Manager,12.739845945736416,Single,Has Car,1_child,20s
 4952,39,Self Enquiry,3,360.0,Salaried,male,3.0,4.0,Standard,3.0,2.0,0,2,Senior Manager,12.904023271054438,Divorced,Has Car,0_child,30s
-4953,37,Self Enquiry,2,960.0,Small Business,male,1.0,3.0,Deluxe,3.0,2.0,0,4,Manager,13.0,Married,No Car,0_child,30s
+4953,36,Self Enquiry,2,960.0,Small Business,male,1.0,3.0,Deluxe,3.0,2.0,0,4,Manager,12.611148930547477,Married,No Car,0_child,30s
 4954,50,Self Enquiry,1,900.0,Salaried,male,3.0,4.0,King,4.0,7.0,0,2,AVP,13.269085390024793,Single,Has Car,2_child,50s
 4955,53,Self Enquiry,1,2040.0,Salaried,male,3.0,4.0,Deluxe,3.0,,1,2,AVP,13.26625763953862,Divorced,No Car,2_child,50s
 4956,22,Self Enquiry,2,480.0,Small Business,female,2.0,4.0,Deluxe,3.0,3.0,0,4,Manager,12.750693715342843,Married,No Car,1_child,20s
@@ -1606,7 +1606,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5093,57,Company Invited,1,660.0,Small Business,male,2.0,4.0,Deluxe,4.0,4.0,0,3,AVP,13.263734459202544,Single,Has Car,1_child,50s
 5094,24,Self Enquiry,1,480.0,Large Business,female,2.0,4.0,Basic,4.0,20.0,0,4,Executive,12.652250942239444,Married,Has Car,0_child,20s
 5095,42,Self Enquiry,1,420.0,Small Business,male,3.0,5.0,Deluxe,3.0,3.0,0,1,AVP,13.114645672386267,Married,Has Car,2_child,40s
-5096,32,Company Invited,1,540.0,Salaried,male,2.0,5.0,Basic,3.0,3.0,0,4,Executive,12.660426325663972,Single,Has Car,1_child,30s
+5096,31,Company Invited,1,540.0,Salaried,male,2.0,5.0,Basic,3.0,3.0,0,4,Executive,12.660426325663972,Single,Has Car,1_child,30s
 5097,39,Self Enquiry,1,1440.0,Salaried,female,2.0,4.0,Deluxe,3.0,12.0,0,3,Manager,12.700421265977356,Single,Has Car,1_child,30s
 5098,56,Self Enquiry,1,900.0,Salaried,female,2.0,4.0,Deluxe,3.0,5.0,0,4,Manager,12.730389847278175,Married,No Car,0_child,50s
 5099,29,Self Enquiry,1,540.0,Salaried,male,2.0,4.0,Deluxe,3.0,8.0,0,3,Manager,12.676079399771027,Single,No Car,1_child,20s
@@ -1652,7 +1652,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5139,53,Self Enquiry,1,540.0,Salaried,male,2.0,2.0,Deluxe,3.0,7.0,0,2,Manager,12.800175432780978,Married,No Car,1_child,50s
 5140,33,Self Enquiry,1,900.0,Salaried,male,2.0,3.0,King,4.0,28.0,0,2,VP,13.144107256506278,Single,No Car,1_child,30s
 5141,33,Company Invited,1,,Small Business,female,2.0,0.0,Deluxe,3.0,1.0,0,2,Manager,12.599012978411894,Single,Has Car,1_child,30s
-5142,40,Self Enquiry,1,660.0,Salaried,male,2.0,3.0,Deluxe,3.0,1.0,0,2,Manager,12.683349758742407,Married,No Car,1_child,40s
+5142,41,Self Enquiry,1,660.0,Salaried,male,2.0,3.0,Deluxe,3.0,1.0,0,2,Manager,12.683349758742407,Married,No Car,1_child,40s
 5143,46,Self Enquiry,2,660.0,Salaried,male,2.0,5.0,King,5.0,2.0,1,2,VP,13.07177720137071,Married,Has Car,0_child,40s
 5144,52,Company Invited,2,1140.0,Small Business,male,3.0,5.0,Deluxe,3.0,5.0,0,1,AVP,13.083135944228468,Single,Has Car,0_child,50s
 5145,45,Company Invited,2,840.0,Small Business,male,3.0,1.0,Basic,3.0,8.0,0,4,Executive,12.468440756144114,Single,No Car,2_child,40s
@@ -1774,7 +1774,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5261,58,Self Enquiry,1,1500.0,Small Business,female,3.0,4.0,Deluxe,3.0,2.0,1,1,Manager,12.802945681821305,Single,No Car,1_child,50s
 5262,40,Company Invited,1,780.0,Small Business,female,4.0,4.0,Deluxe,3.0,7.0,0,3,Manager,12.861247932836566,Married,Has Car,3_child,40s
 5263,50,Self Enquiry,1,900.0,Small Business,male,3.0,4.0,Standard,3.0,5.0,0,3,Senior Manager,12.850202886209019,Divorced,No Car,2_child,50s
-5264,48,Self Enquiry,1,660.0,Small Business,male,3.0,4.0,Basic,3.0,7.0,0,4,Executive,13.0,Married,Has Car,2_child,40s
+5264,48,Self Enquiry,1,660.0,Small Business,male,3.0,4.0,Basic,3.0,7.0,0,4,Executive,12.695986686205924,Married,Has Car,2_child,40s
 5265,25,Self Enquiry,1,840.0,Small Business,male,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.640759929648341,Married,Has Car,2_child,20s
 5266,33,Company Invited,3,960.0,Small Business,male,3.0,4.0,Deluxe,3.0,2.0,0,1,Manager,13.042120316328056,Divorced,No Car,1_child,30s
 5267,20,Self Enquiry,3,420.0,Small Business,female,2.0,0.0,Basic,3.0,3.0,0,1,Executive,12.611541086966115,Single,No Car,1_child,20s
@@ -1915,7 +1915,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5402,57,Self Enquiry,1,660.0,Small Business,female,4.0,5.0,Deluxe,3.0,6.0,0,2,Manager,12.899222326086994,Married,Has Car,1_child,50s
 5403,50,Self Enquiry,3,480.0,Salaried,female,2.0,3.0,Deluxe,3.0,1.0,0,2,Manager,12.961034327953726,Married,No Car,1_child,50s
 5404,30,Self Enquiry,2,840.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.462113110707119,Single,Has Car,0_child,30s
-5405,37,Company Invited,2,480.0,Small Business,female,2.0,4.0,Deluxe,3.0,2.0,0,2,Manager,12.541011564363115,Single,No Car,0_child,30s
+5405,36,Company Invited,2,480.0,Small Business,female,2.0,4.0,Deluxe,3.0,2.0,0,2,Manager,12.541011564363115,Single,No Car,0_child,30s
 5406,50,Self Enquiry,3,660.0,Small Business,male,2.0,4.0,Basic,3.0,6.0,0,1,Executive,12.695698125929145,Married,Has Car,1_child,50s
 5407,33,Self Enquiry,3,840.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.506180941677357,Divorced,Has Car,1_child,30s
 5408,40,Company Invited,2,480.0,Salaried,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.506180941677357,Divorced,No Car,1_child,40s
@@ -1924,7 +1924,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5411,30,Self Enquiry,2,480.0,Salaried,female,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,12.957998038458932,Married,No Car,0_child,30s
 5412,34,Company Invited,3,1380.0,Small Business,male,2.0,3.0,Basic,3.0,3.0,0,2,Executive,12.611541086966115,Single,No Car,0_child,30s
 5413,55,Self Enquiry,2,1680.0,Salaried,male,2.0,3.0,Deluxe,3.0,4.0,0,2,AVP,12.986442847348187,Married,No Car,1_child,50s
-5414,46,No,2,,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,1,Manager,13.0,Divorced,No Car,0_child,40s
+5414,46,No,2,,Small Business,female,2.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.673252454830997,Divorced,No Car,0_child,40s
 5415,33,Self Enquiry,1,780.0,Large Business,male,3.0,5.0,Basic,3.0,4.0,0,3,Executive,12.50161499490616,Married,No Car,2_child,30s
 5416,25,Self Enquiry,1,2160.0,Small Business,female,3.0,5.0,Basic,3.0,3.0,0,4,Executive,12.69881881648169,Single,Has Car,2_child,20s
 5417,28,Self Enquiry,1,480.0,Small Business,male,4.0,4.0,Basic,3.0,2.0,0,1,Executive,12.664702462503628,Divorced,Has Car,1_child,20s
@@ -1936,7 +1936,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5423,24,Company Invited,1,960.0,Small Business,male,3.0,5.0,Basic,3.0,3.0,1,3,Executive,12.659092234030018,Married,No Car,2_child,20s
 5424,21,Company Invited,2,780.0,Salaried,male,2.0,3.0,Basic,3.0,2.0,1,2,Executive,12.454361389931579,Single,No Car,1_child,20s
 5425,29,Company Invited,1,420.0,Salaried,male,2.0,2.0,Standard,3.0,3.0,0,3,Senior Manager,12.669998467265833,Married,Has Car,1_child,20s
-5426,35,Company Invited,1,660.0,Small Business,male,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.52815976788113,Married,Has Car,0_child,30s
+5426,34,Company Invited,1,660.0,Small Business,male,2.0,4.0,Basic,3.0,7.0,0,2,Executive,12.52815976788113,Married,Has Car,0_child,30s
 5427,51,Self Enquiry,1,480.0,Large Business,female,2.0,3.0,Basic,3.0,6.0,0,2,Executive,12.611541086966115,Single,No Car,1_child,50s
 5428,32,Company Invited,1,1020.0,Salaried,female,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.478809847655763,Single,Has Car,0_child,30s
 5429,28,Self Enquiry,1,,Small Business,male,2.0,3.0,Basic,3.0,3.0,0,1,Executive,12.443300545117655,Divorced,No Car,0_child,20s
@@ -1963,7 +1963,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5450,33,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Basic,3.0,5.0,0,2,Executive,12.460776877484749,Married,No Car,0_child,30s
 5451,39,Company Invited,3,,Salaried,female,2.0,3.0,Deluxe,4.0,5.0,0,2,Manager,12.653258544120462,Single,Has Car,0_child,30s
 5452,32,Self Enquiry,2,2040.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,2,Manager,12.716035897560525,Single,No Car,1_child,30s
-5453,32,Self Enquiry,2,960.0,Small Business,female,2.0,3.0,Basic,3.0,5.0,0,1,Executive,12.54254845357358,Divorced,Has Car,0_child,30s
+5453,30,Self Enquiry,2,960.0,Small Business,female,2.0,3.0,Basic,3.0,5.0,0,1,Executive,12.54254845357358,Divorced,Has Car,0_child,30s
 5454,30,Self Enquiry,2,540.0,Small Business,male,2.0,3.0,Basic,3.0,5.0,0,2,Executive,12.487507746221478,Married,No Car,1_child,30s
 5455,42,Company Invited,2,1860.0,Small Business,male,2.0,4.0,Deluxe,3.0,4.0,0,1,Manager,12.899222326086994,Married,Has Car,0_child,40s
 5456,35,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Standard,3.0,8.0,0,2,Senior Manager,12.761123745396581,Married,No Car,0_child,30s
@@ -1973,7 +1973,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5460,44,Self Enquiry,2,540.0,Small Business,female,2.0,3.0,Deluxe,3.0,1.0,0,1,Manager,12.596732021043287,Single,Has Car,1_child,40s
 5461,52,Company Invited,2,840.0,Salaried,male,2.0,3.0,Standard,3.0,5.0,0,1,Senior Manager,12.715495285574605,Married,Has Car,0_child,50s
 5462,35,Company Invited,2,900.0,Salaried,female,2.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.638766983691003,Divorced,Has Car,0_child,30s
-5463,37,Company Invited,2,900.0,Small Business,female,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,12.642555038702115,Single,No Car,0_child,30s
+5463,36,Company Invited,2,900.0,Small Business,female,2.0,3.0,Deluxe,3.0,2.0,0,2,Manager,12.642555038702115,Single,No Car,0_child,30s
 5464,41,Self Enquiry,2,540.0,Salaried,male,2.0,3.0,Deluxe,3.0,5.0,0,1,AVP,12.85816603387352,Divorced,No Car,1_child,40s
 5465,40,Company Invited,2,600.0,Small Business,male,2.0,3.0,Standard,3.0,8.0,0,2,Senior Manager,13.080449119915336,Single,Has Car,1_child,40s
 5466,35,Self Enquiry,2,1920.0,Small Business,female,2.0,3.0,Deluxe,3.0,2.0,0,1,Manager,12.605573335138306,Divorced,Has Car,0_child,30s
@@ -2019,7 +2019,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5506,37,Self Enquiry,1,780.0,Salaried,male,2.0,3.0,Super Deluxe,3.0,3.0,0,1,AVP,13.141785540176196,Married,No Car,1_child,30s
 5507,33,Self Enquiry,2,2040.0,Salaried,male,4.0,5.0,Deluxe,3.0,3.0,0,2,Manager,12.685998758706702,Divorced,No Car,1_child,30s
 5508,18,Self Enquiry,2,780.0,Salaried,male,3.0,6.0,Basic,3.0,28.0,1,4,Executive,12.611541086966115,Single,No Car,1_child,10s
-5509,35,Self Enquiry,1,960.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.561930755951224,Divorced,No Car,0_child,30s
+5509,34,Self Enquiry,1,960.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,2,Executive,12.561930755951224,Divorced,No Car,0_child,30s
 5510,30,No,1,,Salaried,female,2.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.593733528206348,Married,Has Car,1_child,30s
 5511,44,Self Enquiry,1,300.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,2,Executive,12.532498153794986,Divorced,No Car,0_child,40s
 5512,39,Company Invited,1,660.0,Small Business,female,2.0,3.0,Deluxe,4.0,1.0,0,1,Manager,12.49607452514743,Divorced,Has Car,0_child,30s
@@ -2107,7 +2107,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5594,33,Self Enquiry,1,420.0,Small Business,male,3.0,5.0,Basic,3.0,24.0,0,4,Executive,12.664133366307853,Single,No Car,1_child,30s
 5595,41,Company Invited,1,600.0,Large Business,female,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.497196288976752,Single,No Car,1_child,40s
 5596,37,Self Enquiry,1,660.0,Small Business,male,2.0,3.0,King,3.0,1.0,0,1,VP,13.19464868952196,Married,Has Car,0_child,30s
-5597,34,Company Invited,1,840.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,13.0,Single,No Car,1_child,30s
+5597,33,Company Invited,1,840.0,Small Business,female,2.0,3.0,Basic,3.0,2.0,0,1,Executive,12.503599744677295,Single,No Car,1_child,30s
 5598,31,Company Invited,1,840.0,Small Business,female,1.0,1.0,Basic,3.0,1.0,0,2,Executive,12.477781573846311,Married,No Car,0_child,30s
 5599,20,Company Invited,1,660.0,Large Business,male,2.0,3.0,Basic,4.0,1.0,0,3,Executive,12.520412471588006,Married,Has Car,0_child,20s
 5600,50,Self Enquiry,1,420.0,Large Business,male,2.0,3.0,Standard,4.0,20.0,0,3,Senior Manager,12.939295942512452,Single,Has Car,0_child,50s
@@ -2156,8 +2156,8 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5643,20,Self Enquiry,2,1140.0,Small Business,male,3.0,4.0,Basic,3.0,2.0,0,4,Executive,12.608034959344433,Married,Has Car,1_child,20s
 5644,30,Self Enquiry,2,420.0,Large Business,male,3.0,4.0,Standard,3.0,12.0,0,4,Senior Manager,12.777012643311268,Divorced,Has Car,1_child,30s
 5645,25,Self Enquiry,2,900.0,Salaried,male,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.650857820830202,Single,Has Car,2_child,20s
-5646,30,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,4,Executive,13.0,Single,No Car,1_child,30s
-5647,35,Self Enquiry,1,540.0,Small Business,male,3.0,4.0,Basic,3.0,2.0,0,4,Executive,13.0,Married,Has Car,1_child,30s
+5646,29,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,4,Executive,12.500175959851994,Single,No Car,1_child,20s
+5647,34,Self Enquiry,1,540.0,Small Business,male,3.0,4.0,Basic,3.0,2.0,0,4,Executive,12.652086946509183,Married,Has Car,1_child,30s
 5648,24,Self Enquiry,1,480.0,Small Business,female,4.0,5.0,Deluxe,4.0,3.0,0,1,Executive,12.82398699074572,Married,No Car,2_child,20s
 5649,39,Company Invited,1,480.0,Salaried,female,4.0,4.0,Standard,3.0,8.0,0,2,Senior Manager,12.948012371209098,Married,Has Car,2_child,30s
 5650,34,Self Enquiry,1,660.0,Salaried,male,4.0,4.0,Basic,3.0,3.0,0,2,Executive,12.740153752149135,Divorced,Has Car,2_child,30s
@@ -2240,7 +2240,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5727,54,Self Enquiry,1,540.0,Large Business,male,2.0,3.0,King,3.0,4.0,0,4,Executive,12.536548367512397,Married,Has Car,1_child,50s
 5728,31,Company Invited,1,840.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.611541086966115,Single,Has Car,0_child,30s
 5729,32,Self Enquiry,1,840.0,Large Business,female,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.714187598746049,Married,Has Car,0_child,30s
-5730,32,Company Invited,1,1020.0,Large Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.0,Single,Has Car,0_child,30s
+5730,31,Company Invited,1,1020.0,Large Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.463143007820738,Single,Has Car,0_child,30s
 5731,51,Self Enquiry,1,1560.0,Large Business,female,2.0,3.0,Basic,3.0,5.0,0,4,Executive,12.525329690269542,Single,No Car,0_child,50s
 5732,43,Self Enquiry,2,660.0,Small Business,male,3.0,4.0,Deluxe,3.0,2.0,1,3,Manager,12.899222326086994,Divorced,No Car,1_child,40s
 5733,52,Self Enquiry,2,780.0,Salaried,male,3.0,4.0,Deluxe,3.0,4.0,1,3,AVP,13.122365377402328,Divorced,Has Car,1_child,50s
@@ -2258,7 +2258,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5745,52,Self Enquiry,1,480.0,Small Business,male,3.0,4.0,King,4.0,7.0,0,3,AVP,13.214242222361467,Single,Has Car,1_child,50s
 5746,31,Self Enquiry,1,480.0,Large Business,female,3.0,4.0,Basic,3.0,4.0,0,3,Executive,12.457107590314761,Divorced,No Car,1_child,30s
 5747,38,Self Enquiry,1,540.0,Small Business,male,3.0,4.0,Basic,3.0,2.0,0,3,Executive,12.992507507477207,Single,No Car,2_child,30s
-5748,28,Self Enquiry,1,480.0,Small Business,female,3.0,4.0,Basic,3.0,2.0,0,4,Executive,13.0,Married,Has Car,1_child,20s
+5748,28,Self Enquiry,1,480.0,Small Business,female,3.0,4.0,Basic,3.0,2.0,0,4,Executive,12.640908797212237,Married,Has Car,1_child,20s
 5749,37,Self Enquiry,1,540.0,Large Business,male,3.0,5.0,Basic,3.0,5.0,0,4,Executive,12.669196412705148,Married,Has Car,2_child,30s
 5750,47,Company Invited,1,900.0,Small Business,male,3.0,5.0,King,3.0,7.0,0,3,VP,12.893669451218095,Married,Has Car,2_child,40s
 5751,46,Self Enquiry,1,960.0,Large Business,male,3.0,4.0,Basic,3.0,3.0,0,4,Executive,12.676079399771027,Single,No Car,1_child,40s
@@ -2280,7 +2280,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5767,20,Self Enquiry,1,540.0,Small Business,female,3.0,5.0,Basic,3.0,3.0,0,4,Executive,12.4877907186411,Married,No Car,1_child,20s
 5768,39,Company Invited,1,1020.0,Small Business,female,2.0,3.0,Deluxe,3.0,1.0,0,3,Manager,12.531090241820436,Married,Has Car,0_child,30s
 5769,35,Self Enquiry,2,540.0,Salaried,male,3.0,3.0,Deluxe,3.0,3.0,0,1,Manager,12.730922468883838,Divorced,Has Car,2_child,30s
-5770,38,Self Enquiry,2,840.0,Small Business,male,2.0,3.0,Deluxe,4.0,1.0,0,4,Manager,12.503009262277331,Divorced,No Car,0_child,30s
+5770,37,Self Enquiry,2,840.0,Small Business,male,2.0,3.0,Deluxe,4.0,1.0,0,4,Manager,12.503009262277331,Divorced,No Car,0_child,30s
 5771,31,Company Invited,2,540.0,Large Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.611541086966115,Single,No Car,0_child,30s
 5772,33,Self Enquiry,2,1560.0,Large Business,male,2.0,3.0,Deluxe,3.0,5.0,0,4,Manager,12.49982749131139,Divorced,No Car,0_child,30s
 5773,50,Company Invited,2,900.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,3,Executive,12.50306499255765,Single,No Car,1_child,50s
@@ -2292,7 +2292,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5779,45,Self Enquiry,2,540.0,Small Business,female,2.0,3.0,Basic,3.0,20.0,0,4,Executive,12.468017591326646,Single,Has Car,0_child,40s
 5780,50,Self Enquiry,2,960.0,Small Business,female,2.0,3.0,Deluxe,3.0,4.0,0,3,Manager,12.873904582205107,Married,Has Car,1_child,50s
 5781,50,Self Enquiry,2,1380.0,Small Business,male,2.0,3.0,Deluxe,3.0,5.0,0,4,Manager,12.71675625921321,Married,No Car,1_child,50s
-5782,32,Self Enquiry,2,720.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,3,Executive,12.493545946190642,Divorced,Has Car,0_child,30s
+5782,31,Self Enquiry,2,720.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,3,Executive,12.493545946190642,Divorced,Has Car,0_child,30s
 5783,53,Self Enquiry,2,480.0,Small Business,female,2.0,3.0,Standard,3.0,2.0,0,3,Senior Manager,12.75875301035009,Married,No Car,0_child,50s
 5784,47,Company Invited,2,600.0,Large Business,male,2.0,3.0,Basic,3.0,5.0,0,5,Executive,12.508566972880736,Single,No Car,0_child,40s
 5785,30,Self Enquiry,2,1380.0,Small Business,male,2.0,3.0,Deluxe,3.0,1.0,0,3,Manager,12.4587400470188,Divorced,No Car,0_child,30s
@@ -2324,7 +2324,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5811,34,Self Enquiry,2,1140.0,Salaried,female,2.0,3.0,Deluxe,3.0,5.0,1,4,Manager,12.650425077890382,Divorced,Has Car,0_child,30s
 5812,26,Company Invited,2,600.0,Salaried,male,2.0,3.0,Basic,3.0,5.0,1,3,Executive,12.43229545107119,Divorced,Has Car,0_child,20s
 5813,37,Company Invited,2,480.0,Small Business,female,2.0,4.0,Basic,3.0,8.0,0,3,Executive,12.429220196836383,Married,Has Car,0_child,30s
-5814,34,Company Invited,1,600.0,Large Business,male,2.0,3.0,Basic,3.0,8.0,0,4,Executive,12.0,Divorced,Has Car,0_child,30s
+5814,33,Company Invited,1,600.0,Large Business,male,2.0,3.0,Basic,3.0,8.0,0,4,Executive,12.45501643488904,Divorced,Has Car,0_child,30s
 5815,44,Self Enquiry,1,480.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,0,4,Executive,12.494220859321198,Married,Has Car,0_child,40s
 5816,40,Self Enquiry,1,480.0,Small Business,male,2.0,4.0,Basic,3.0,2.0,0,3,Executive,12.476637805921735,Single,No Car,1_child,40s
 5817,43,Self Enquiry,1,960.0,Small Business,male,2.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.662756711929696,Divorced,Has Car,1_child,40s
@@ -2376,7 +2376,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5863,54,Self Enquiry,2,540.0,Large Business,male,2.0,3.0,Standard,4.0,1.0,0,1,Senior Manager,13.122365377402328,Married,No Car,0_child,50s
 5864,32,Company Invited,2,,Small Business,female,2.0,1.0,Deluxe,4.0,1.0,0,2,Manager,12.574098918663445,Married,Has Car,0_child,30s
 5865,40,Company Invited,2,720.0,Small Business,male,2.0,3.0,Basic,4.0,5.0,0,1,Executive,12.741823050055372,Divorced,No Car,0_child,40s
-5866,30,Self Enquiry,2,780.0,Salaried,male,2.0,1.0,Basic,4.0,2.0,0,2,Executive,12.511997305519236,Single,Has Car,0_child,30s
+5866,29,Self Enquiry,2,780.0,Salaried,male,2.0,1.0,Basic,4.0,2.0,0,2,Executive,12.511997305519236,Single,Has Car,0_child,20s
 5867,52,Company Invited,2,900.0,Small Business,female,2.0,3.0,Standard,4.0,1.0,0,2,Senior Manager,12.975801165519048,Single,Has Car,0_child,50s
 5868,57,Self Enquiry,1,660.0,Small Business,male,2.0,1.0,Standard,4.0,2.0,0,1,Senior Manager,12.899222326086994,Divorced,No Car,0_child,50s
 5869,41,Self Enquiry,1,900.0,Salaried,male,2.0,3.0,Basic,4.0,24.0,0,1,Executive,12.468440756144114,Married,Has Car,0_child,40s
@@ -2394,7 +2394,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5881,34,Company Invited,2,540.0,Small Business,male,3.0,4.0,Basic,4.0,7.0,0,2,Executive,12.796442083312183,Single,Has Car,2_child,30s
 5882,42,Company Invited,2,1620.0,Large Business,male,3.0,4.0,Standard,4.0,2.0,0,2,Senior Manager,12.916448064056505,Divorced,No Car,2_child,40s
 5883,33,Company Invited,2,960.0,Small Business,male,3.0,4.0,Basic,4.0,2.0,0,2,Executive,12.792694743698723,Married,Has Car,2_child,30s
-5884,30,Self Enquiry,2,960.0,Small Business,female,3.0,4.0,Deluxe,5.0,5.0,0,2,Manager,13.0,Divorced,Has Car,2_child,30s
+5884,30,Self Enquiry,2,960.0,Small Business,female,3.0,4.0,Deluxe,5.0,5.0,0,2,Manager,12.77384672278056,Divorced,Has Car,2_child,30s
 5885,30,Self Enquiry,2,540.0,Salaried,male,3.0,4.0,Standard,4.0,2.0,0,2,Senior Manager,12.688964735589899,Married,Has Car,2_child,30s
 5886,28,Self Enquiry,3,420.0,Large Business,female,3.0,4.0,Standard,4.0,2.0,0,1,Senior Manager,12.847929163278053,Single,Has Car,2_child,20s
 5887,33,Self Enquiry,2,960.0,Small Business,male,3.0,4.0,Basic,5.0,8.0,0,2,Executive,12.611541086966115,Single,No Car,2_child,30s
@@ -2418,7 +2418,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5905,46,Self Enquiry,1,1200.0,Small Business,female,3.0,4.0,Basic,3.0,2.0,0,2,Senior Manager,12.89102635106159,Single,No Car,1_child,40s
 5906,38,Self Enquiry,1,420.0,Salaried,male,3.0,3.0,Basic,3.0,7.0,0,2,Executive,12.510283610097016,Single,No Car,0_child,30s
 5907,47,Self Enquiry,1,420.0,Salaried,male,3.0,3.0,Basic,3.0,2.0,0,2,Executive,12.509010258223377,Married,No Car,1_child,40s
-5908,45,Self Enquiry,1,360.0,Salaried,male,3.0,4.0,Basic,3.0,16.0,1,1,Executive,13.0,Married,No Car,1_child,40s
+5908,45,Self Enquiry,1,360.0,Salaried,male,3.0,4.0,Basic,3.0,16.0,1,1,Executive,12.681395311798276,Married,No Car,1_child,40s
 5909,23,Self Enquiry,1,2040.0,Salaried,male,4.0,5.0,Basic,3.0,3.0,0,4,Executive,12.637939473977331,Single,No Car,2_child,20s
 5910,37,Self Enquiry,1,2040.0,Small Business,male,4.0,5.0,Deluxe,4.0,5.0,0,4,Manager,12.899222326086994,Married,No Car,2_child,30s
 5911,60,Self Enquiry,2,960.0,Small Business,male,1.0,1.0,Deluxe,3.0,4.0,0,4,AVP,12.918252549243013,Divorced,Has Car,0_child,60s
@@ -2442,13 +2442,13 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 5929,30,Company Invited,1,780.0,Salaried,female,2.0,3.0,Deluxe,3.0,5.0,0,2,Manager,12.761855382416767,Single,No Car,0_child,30s
 5930,27,No,1,,Small Business,male,2.0,1.0,Deluxe,3.0,12.0,0,1,Manager,12.608235640993772,Married,Has Car,1_child,20s
 5931,36,Company Invited,1,840.0,Small Business,male,2.0,1.0,Basic,3.0,8.0,0,1,Executive,12.488639155776616,Divorced,No Car,0_child,30s
-5932,36,Self Enquiry,1,600.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,1,Executive,13.0,Married,No Car,1_child,30s
+5932,35,Self Enquiry,1,600.0,Small Business,male,2.0,3.0,Basic,3.0,8.0,0,1,Executive,12.515812866053292,Married,No Car,1_child,30s
 5933,35,Self Enquiry,1,600.0,Salaried,male,2.0,3.0,Standard,3.0,2.0,0,1,Senior Manager,12.893782570973073,Married,No Car,0_child,30s
 5934,39,Company Invited,1,540.0,Small Business,female,2.0,1.0,Basic,4.0,2.0,0,1,Executive,12.508123490949052,Married,No Car,0_child,30s
 5935,32,Self Enquiry,1,1020.0,Small Business,female,2.0,3.0,Basic,4.0,2.0,0,2,Executive,12.473715262644228,Married,No Car,0_child,30s
 5936,37,Self Enquiry,1,1020.0,Salaried,female,2.0,1.0,Basic,3.0,2.0,1,1,Executive,12.49697203685663,Married,Has Car,0_child,30s
 5937,50,Self Enquiry,1,960.0,Salaried,female,2.0,1.0,Basic,3.0,3.0,1,2,Executive,12.54254845357358,Married,Has Car,1_child,50s
-5938,36,Self Enquiry,1,480.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,1,2,Executive,12.498260800326545,Married,No Car,1_child,30s
+5938,35,Self Enquiry,1,480.0,Small Business,male,2.0,3.0,Basic,3.0,2.0,1,2,Executive,12.498260800326545,Married,No Car,1_child,30s
 5939,26,Self Enquiry,1,600.0,Large Business,female,4.0,5.0,Basic,3.0,3.0,0,4,Executive,12.65975950232204,Divorced,Has Car,2_child,20s
 5940,32,Company Invited,1,960.0,Large Business,male,4.0,5.0,Basic,3.0,3.0,0,3,Senior Manager,13.02589873146034,Single,No Car,1_child,30s
 5941,36,Company Invited,2,660.0,Small Business,female,4.0,4.0,Deluxe,3.0,3.0,0,3,Manager,12.821233960000242,Divorced,Has Car,1_child,30s
@@ -2535,7 +2535,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6022,50,Self Enquiry,1,360.0,Small Business,male,3.0,3.0,King,3.0,6.0,0,1,VP,13.2245606954234,Single,No Car,1_child,50s
 6023,36,Self Enquiry,1,1800.0,Salaried,male,4.0,4.0,Deluxe,3.0,3.0,0,3,AVP,13.119651704139363,Married,No Car,3_child,30s
 6024,30,Company Invited,2,900.0,Small Business,female,2.0,4.0,Deluxe,5.0,2.0,0,2,Manager,12.68339629295204,Married,Has Car,1_child,30s
-6025,41,Company Invited,2,,Small Business,male,3.0,4.0,Deluxe,5.0,7.0,0,2,Manager,13.0,Divorced,Has Car,2_child,40s
+6025,41,Company Invited,2,,Small Business,male,3.0,4.0,Deluxe,5.0,7.0,0,2,Manager,12.7958672973349,Divorced,Has Car,2_child,40s
 6026,40,Company Invited,2,900.0,Small Business,male,2.0,4.0,Standard,4.0,7.0,0,1,Manager,12.931520012931943,Single,No Car,1_child,40s
 6027,40,Self Enquiry,2,1020.0,Small Business,male,2.0,4.0,Deluxe,4.0,28.0,0,2,Manager,12.682465197078118,Single,No Car,1_child,40s
 6028,41,Company Invited,3,600.0,Salaried,male,2.0,4.0,Standard,4.0,5.0,0,1,Senior Manager,12.893895677933418,Single,Has Car,1_child,40s
@@ -2601,7 +2601,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6088,37,Company Invited,1,780.0,Large Business,female,2.0,4.0,Standard,4.0,3.0,1,2,Senior Manager,12.899222326086994,Single,No Car,1_child,30s
 6089,41,Self Enquiry,1,1980.0,Salaried,male,2.0,4.0,Deluxe,4.0,8.0,1,1,AVP,13.151535697204164,Divorced,Has Car,1_child,40s
 6090,52,Self Enquiry,1,600.0,Salaried,male,2.0,4.0,Standard,4.0,5.0,1,2,Senior Manager,12.97698147258216,Single,No Car,1_child,50s
-6091,35,Self Enquiry,1,840.0,Small Business,male,3.0,3.0,Basic,4.0,2.0,0,4,Executive,12.503455017579913,Divorced,Has Car,0_child,30s
+6091,34,Self Enquiry,1,840.0,Small Business,male,3.0,3.0,Basic,4.0,2.0,0,4,Executive,12.503455017579913,Divorced,Has Car,0_child,30s
 6092,34,Company Invited,1,840.0,Small Business,female,3.0,3.0,Basic,4.0,1.0,0,4,Executive,12.455939916072147,Married,Has Car,0_child,30s
 6093,49,Company Invited,1,600.0,Large Business,male,3.0,3.0,Basic,4.0,5.0,0,4,Executive,12.495681610331918,Married,No Car,0_child,40s
 6094,36,Company Invited,3,840.0,Small Business,male,3.0,2.0,Standard,4.0,1.0,0,3,Senior Manager,12.97235643376494,Single,Has Car,0_child,30s
@@ -2640,14 +2640,14 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6127,40,Self Enquiry,1,840.0,Small Business,female,3.0,1.0,Basic,3.0,6.0,0,3,Executive,12.48035027855827,Married,No Car,1_child,40s
 6128,18,Self Enquiry,1,1860.0,Large Business,male,4.0,4.0,Basic,4.0,3.0,0,4,Executive,12.676079399771027,Married,No Car,1_child,10s
 6129,35,Self Enquiry,1,840.0,Small Business,male,3.0,4.0,Basic,4.0,7.0,0,4,Executive,12.65066551375367,Married,Has Car,2_child,30s
-6130,35,Company Invited,1,1560.0,Large Business,female,3.0,3.0,Basic,3.0,5.0,1,4,Executive,13.0,Divorced,Has Car,1_child,30s
+6130,33,Company Invited,1,1560.0,Large Business,female,3.0,3.0,Basic,3.0,5.0,1,4,Executive,12.51196480269509,Divorced,Has Car,1_child,30s
 6131,38,Self Enquiry,2,660.0,Salaried,female,2.0,3.0,Basic,3.0,5.0,0,3,Executive,12.780776885244194,Single,No Car,0_child,30s
 6132,27,Self Enquiry,2,840.0,Salaried,male,2.0,1.0,Standard,3.0,1.0,0,4,Senior Manager,12.458973037727409,Married,Has Car,0_child,20s
 6133,43,Self Enquiry,2,900.0,Salaried,female,2.0,3.0,Standard,3.0,3.0,0,3,Senior Manager,12.91887783508644,Single,No Car,1_child,40s
 6134,45,Self Enquiry,1,600.0,Salaried,female,4.0,4.0,Basic,4.0,5.0,0,4,Executive,12.899222326086994,Divorced,Has Car,3_child,40s
 6135,58,Company Invited,1,480.0,Salaried,male,3.0,4.0,Standard,4.0,20.0,0,3,Senior Manager,12.864126184847583,Married,Has Car,2_child,50s
 6136,40,Self Enquiry,1,600.0,Salaried,male,3.0,4.0,Basic,4.0,7.0,0,4,Executive,12.664607635625828,Single,Has Car,2_child,40s
-6137,35,Self Enquiry,1,1080.0,Salaried,female,3.0,3.0,Basic,3.0,5.0,0,4,Executive,12.483139828858848,Married,Has Car,0_child,30s
+6137,34,Self Enquiry,1,1080.0,Salaried,female,3.0,3.0,Basic,3.0,5.0,0,4,Executive,12.483139828858848,Married,Has Car,0_child,30s
 6138,32,Self Enquiry,1,840.0,Small Business,female,2.0,3.0,Basic,3.0,5.0,0,3,Executive,12.478924035060254,Married,No Car,0_child,30s
 6139,30,Company Invited,1,960.0,Small Business,female,2.0,1.0,Basic,3.0,5.0,0,4,Executive,12.447020750889653,Married,Has Car,1_child,30s
 6140,28,Self Enquiry,1,900.0,Small Business,male,2.0,3.0,Basic,3.0,5.0,0,3,Executive,12.433252041854843,Married,Has Car,0_child,20s
@@ -2720,7 +2720,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6207,37,Self Enquiry,2,420.0,Small Business,male,3.0,4.0,Basic,3.0,3.0,0,3,Executive,12.611541086966115,Divorced,Has Car,2_child,30s
 6208,38,Self Enquiry,1,1980.0,Salaried,female,3.0,2.0,Deluxe,3.0,3.0,0,1,Manager,12.799388441023103,Single,No Car,1_child,30s
 6209,30,Company Invited,1,1020.0,Small Business,male,3.0,2.0,Basic,4.0,3.0,0,2,Executive,12.688594469209868,Single,No Car,1_child,30s
-6210,38,Self Enquiry,1,1440.0,Salaried,male,3.0,2.0,Basic,3.0,3.0,0,1,Executive,13.0,Married,No Car,1_child,30s
+6210,37,Self Enquiry,1,1440.0,Salaried,male,3.0,2.0,Basic,3.0,3.0,0,1,Executive,12.591397841780907,Married,No Car,1_child,30s
 6211,45,Company Invited,1,720.0,Small Business,female,3.0,2.0,Deluxe,3.0,12.0,0,2,Manager,12.716171004903515,Married,Has Car,1_child,40s
 6212,44,Company Invited,1,420.0,Salaried,female,3.0,2.0,Deluxe,3.0,2.0,0,1,Manager,12.676079399771027,Divorced,No Car,1_child,40s
 6213,55,Self Enquiry,1,420.0,Small Business,male,3.0,4.0,Basic,3.0,5.0,0,2,Executive,12.658901504137932,Married,Has Car,1_child,50s
@@ -2756,7 +2756,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6243,28,Self Enquiry,2,840.0,Salaried,female,3.0,3.0,Deluxe,3.0,3.0,0,4,Manager,12.756765888545186,Married,No Car,0_child,20s
 6244,39,Company Invited,2,540.0,Small Business,female,3.0,3.0,Deluxe,3.0,3.0,1,5,AVP,12.80063077666316,Married,No Car,0_child,30s
 6245,51,Company Invited,2,1020.0,Small Business,female,3.0,3.0,Deluxe,3.0,16.0,0,4,Manager,12.65975950232204,Single,No Car,0_child,50s
-6246,42,Company Invited,1,600.0,Small Business,female,3.0,3.0,Basic,4.0,1.0,0,4,Executive,13.0,Single,Has Car,0_child,40s
+6246,42,Company Invited,1,600.0,Small Business,female,3.0,3.0,Basic,4.0,1.0,0,4,Executive,12.508016061391086,Single,Has Car,0_child,40s
 6247,61,Company Invited,1,480.0,Large Business,female,3.0,4.0,Basic,3.0,4.0,0,4,Executive,12.728968134526745,Divorced,Has Car,1_child,60s
 6248,40,Self Enquiry,1,420.0,Small Business,male,3.0,3.0,Basic,3.0,5.0,0,4,Executive,12.486998193993617,Married,No Car,1_child,40s
 6249,41,Company Invited,1,1080.0,Large Business,female,3.0,4.0,Basic,3.0,5.0,0,4,Executive,12.870321255847454,Married,No Car,1_child,40s
@@ -2838,7 +2838,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6325,36,Company Invited,1,780.0,Small Business,male,2.0,4.0,Basic,4.0,6.0,0,4,Executive,12.79106652534706,Married,No Car,1_child,30s
 6326,46,Self Enquiry,1,840.0,Small Business,female,2.0,4.0,Deluxe,4.0,1.0,0,2,Manager,12.798227533616044,Married,No Car,1_child,40s
 6327,53,Company Invited,1,540.0,Salaried,male,2.0,5.0,Standard,4.0,8.0,0,2,Senior Manager,12.850399786474421,Single,No Car,1_child,50s
-6328,40,Self Enquiry,1,1560.0,Small Business,male,1.0,4.0,Deluxe,4.0,2.0,0,2,Manager,13.0,Single,No Car,0_child,40s
+6328,41,Self Enquiry,1,1560.0,Small Business,male,1.0,4.0,Deluxe,4.0,2.0,0,2,Manager,12.721389868932313,Single,No Car,0_child,40s
 6329,38,Company Invited,1,600.0,Large Business,male,2.0,4.0,Deluxe,4.0,5.0,0,2,Manager,12.626478909907634,Divorced,No Car,1_child,30s
 6330,50,Self Enquiry,3,840.0,Salaried,male,3.0,3.0,Standard,3.0,1.0,0,2,Senior Manager,12.935433619140802,Divorced,Has Car,1_child,50s
 6331,52,Company Invited,1,480.0,Salaried,male,2.0,4.0,Standard,4.0,2.0,1,1,Senior Manager,12.899222326086994,Single,No Car,1_child,50s
@@ -2872,7 +2872,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6359,37,Company Invited,1,540.0,Salaried,male,3.0,4.0,Basic,3.0,4.0,0,4,Executive,12.63050997088003,Married,Has Car,2_child,30s
 6360,24,Self Enquiry,2,780.0,Salaried,male,2.0,5.0,Basic,4.0,2.0,0,4,Executive,12.446077247039748,Married,No Car,1_child,20s
 6361,44,Company Invited,3,900.0,Salaried,male,3.0,5.0,Standard,4.0,7.0,0,3,Senior Manager,13.04585159533623,Divorced,No Car,2_child,40s
-6362,36,Company Invited,1,660.0,Large Business,male,3.0,3.0,Basic,3.0,8.0,1,4,Executive,13.0,Married,No Car,1_child,30s
+6362,34,Company Invited,1,660.0,Large Business,male,3.0,3.0,Basic,3.0,8.0,1,4,Executive,12.55132454984823,Married,No Car,1_child,30s
 6363,59,Self Enquiry,2,1020.0,Salaried,male,3.0,3.0,Deluxe,4.0,5.0,1,2,AVP,13.10651038004094,Single,No Car,2_child,50s
 6364,40,Self Enquiry,1,1380.0,Salaried,male,3.0,2.0,Deluxe,3.0,5.0,0,4,Manager,12.777055016970678,Single,No Car,1_child,40s
 6365,51,Company Invited,2,900.0,Small Business,female,2.0,5.0,Standard,4.0,3.0,0,2,Senior Manager,12.941455221288876,Single,Has Car,1_child,50s
@@ -2930,7 +2930,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6417,59,Self Enquiry,1,1860.0,Small Business,male,3.0,3.0,Deluxe,5.0,6.0,0,2,AVP,13.045268487310828,Divorced,Has Car,2_child,50s
 6418,50,Self Enquiry,1,780.0,Small Business,female,2.0,3.0,Basic,4.0,1.0,0,2,Executive,12.512549484615986,Divorced,No Car,1_child,50s
 6419,32,Self Enquiry,1,1020.0,Salaried,male,3.0,4.0,Basic,4.0,5.0,0,1,Executive,12.648981247446823,Divorced,No Car,2_child,30s
-6420,35,Company Invited,1,2040.0,Small Business,female,2.0,3.0,Basic,4.0,6.0,0,2,Executive,13.0,Married,Has Car,1_child,30s
+6420,35,Company Invited,1,2040.0,Small Business,female,2.0,3.0,Basic,4.0,6.0,0,2,Executive,12.493945820430639,Married,Has Car,1_child,30s
 6421,57,Self Enquiry,1,1260.0,Salaried,female,2.0,3.0,Deluxe,5.0,5.0,0,2,Manager,12.611541086966115,Married,No Car,1_child,50s
 6422,52,Company Invited,1,480.0,Salaried,male,3.0,4.0,Standard,4.0,2.0,0,1,Senior Manager,12.810964949001884,Single,Has Car,2_child,50s
 6423,30,Self Enquiry,1,540.0,Large Business,male,2.0,3.0,Basic,4.0,1.0,0,2,Executive,12.461299964017124,Divorced,Has Car,1_child,30s
@@ -2955,8 +2955,8 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6442,35,Self Enquiry,1,540.0,Small Business,male,2.0,3.0,Basic,4.0,1.0,0,4,Executive,12.468882964346784,Single,Has Car,1_child,30s
 6443,56,Company Invited,1,600.0,Small Business,female,1.0,3.0,Deluxe,5.0,3.0,0,4,AVP,12.889134136076313,Single,No Car,0_child,50s
 6444,47,Self Enquiry,1,840.0,Small Business,female,1.0,3.0,Basic,4.0,1.0,0,3,Executive,12.498036786825061,Married,Has Car,0_child,40s
-6445,33,Company Invited,1,1020.0,Large Business,female,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.0,Single,Has Car,0_child,30s
-6446,33,Company Invited,1,600.0,Small Business,male,1.0,3.0,Basic,4.0,1.0,0,4,Executive,12.475263555339943,Single,Has Car,0_child,30s
+6445,33,Company Invited,1,1020.0,Large Business,female,1.0,3.0,Basic,4.0,2.0,0,4,Executive,12.458272738071825,Single,Has Car,0_child,30s
+6446,32,Company Invited,1,600.0,Small Business,male,1.0,3.0,Basic,4.0,1.0,0,4,Executive,12.475263555339943,Single,Has Car,0_child,30s
 6447,49,Self Enquiry,1,540.0,Small Business,male,1.0,3.0,Standard,4.0,2.0,0,4,Senior Manager,12.82248995823139,Married,No Car,0_child,40s
 6448,26,Self Enquiry,1,960.0,Small Business,male,1.0,3.0,Basic,4.0,2.0,0,3,Executive,12.463795385538898,Single,No Car,0_child,20s
 6449,55,Self Enquiry,2,840.0,Salaried,male,1.0,3.0,Standard,4.0,1.0,0,2,Senior Manager,12.899609750059886,Single,No Car,0_child,50s
@@ -2987,12 +2987,12 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6474,58,Company Invited,1,840.0,Small Business,male,2.0,3.0,Deluxe,4.0,1.0,0,1,AVP,12.991721520333765,Divorced,Has Car,1_child,50s
 6475,35,Self Enquiry,1,480.0,Small Business,female,2.0,3.0,Basic,4.0,7.0,0,2,Executive,12.429959920213584,Single,No Car,1_child,30s
 6476,32,Company Invited,1,780.0,Small Business,female,1.0,3.0,Basic,4.0,4.0,0,2,Executive,12.419957466780247,Divorced,Has Car,0_child,30s
-6477,40,Company Invited,1,480.0,Small Business,female,2.0,3.0,King,5.0,6.0,0,2,Manager,13.0,Single,No Car,1_child,40s
+6477,39,Company Invited,1,480.0,Small Business,female,2.0,3.0,King,5.0,6.0,0,2,Manager,12.752868247805383,Single,No Car,1_child,30s
 6478,30,Self Enquiry,1,540.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,1,Executive,12.512604685759767,Single,No Car,1_child,30s
 6479,43,Self Enquiry,1,,Small Business,male,1.0,3.0,Basic,4.0,4.0,0,2,Executive,12.471877139462638,Married,No Car,0_child,40s
 6480,52,Self Enquiry,1,480.0,Salaried,female,1.0,3.0,Deluxe,5.0,5.0,0,1,AVP,13.128397137606836,Divorced,Has Car,0_child,50s
 6481,34,Self Enquiry,1,600.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,1,Executive,12.508068041876237,Single,No Car,1_child,30s
-6482,36,Company Invited,1,480.0,Large Business,female,1.0,4.0,Basic,4.0,1.0,0,2,Executive,12.519426119694613,Married,No Car,0_child,30s
+6482,35,Company Invited,1,480.0,Large Business,female,1.0,4.0,Basic,4.0,1.0,0,2,Executive,12.519426119694613,Married,No Car,0_child,30s
 6483,45,Company Invited,1,1080.0,Small Business,female,2.0,3.0,Deluxe,5.0,3.0,0,2,AVP,13.120523686209735,Divorced,No Car,1_child,40s
 6484,53,Self Enquiry,1,480.0,Salaried,female,2.0,3.0,Standard,4.0,2.0,1,2,Senior Manager,12.611541086966115,Single,Has Car,1_child,50s
 6485,50,Self Enquiry,1,1980.0,Small Business,male,3.0,5.0,King,3.0,4.0,0,2,VP,12.611541086966115,Married,No Car,2_child,50s
@@ -3076,7 +3076,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6563,40,Company Invited,2,,Salaried,female,2.0,3.0,Deluxe,5.0,4.0,0,4,Manager,12.649173878661381,Married,Has Car,1_child,40s
 6564,41,Self Enquiry,2,1020.0,Small Business,male,2.0,4.0,Basic,5.0,7.0,1,4,Executive,12.525384190439414,Single,No Car,1_child,40s
 6565,42,Self Enquiry,2,1200.0,Salaried,male,2.0,3.0,Deluxe,4.0,2.0,1,4,Manager,12.647631788953152,Married,Has Car,1_child,40s
-6566,34,Company Invited,1,,Small Business,female,3.0,3.0,Basic,4.0,20.0,0,4,Executive,13.0,Single,No Car,2_child,30s
+6566,33,Company Invited,1,,Small Business,female,3.0,3.0,Basic,4.0,20.0,0,4,Executive,12.56964428109567,Single,No Car,2_child,30s
 6567,54,Company Invited,1,660.0,Small Business,male,2.0,3.0,Standard,4.0,2.0,0,5,Senior Manager,12.864126184847583,Married,Has Car,1_child,50s
 6568,39,Company Invited,1,600.0,Large Business,male,3.0,3.0,Standard,4.0,2.0,0,4,Senior Manager,12.784274634941276,Married,No Car,2_child,30s
 6569,50,Self Enquiry,1,1620.0,Large Business,female,2.0,3.0,Standard,4.0,2.0,0,5,Senior Manager,12.899222326086994,Single,Has Car,1_child,50s
@@ -3126,9 +3126,9 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6613,51,Company Invited,3,1980.0,Small Business,female,2.0,4.0,Basic,4.0,2.0,0,4,AVP,12.515911190456738,Divorced,Has Car,0_child,50s
 6614,50,Company Invited,3,960.0,Small Business,male,2.0,4.0,Standard,4.0,3.0,0,4,Senior Manager,12.847929163278053,Single,No Car,1_child,50s
 6615,25,Company Invited,2,1080.0,Small Business,female,2.0,4.0,Basic,4.0,2.0,0,3,Executive,12.431756966354135,Single,Has Car,1_child,20s
-6616,30,Self Enquiry,2,540.0,Small Business,male,2.0,4.0,Basic,4.0,7.0,0,3,Executive,12.436950212097432,Single,No Car,1_child,30s
+6616,29,Self Enquiry,2,540.0,Small Business,male,2.0,4.0,Basic,4.0,7.0,0,3,Executive,12.436950212097432,Single,No Car,1_child,20s
 6617,49,Company Invited,2,600.0,Small Business,male,2.0,4.0,Standard,4.0,7.0,0,3,Senior Manager,12.957467507573718,Single,Has Car,1_child,40s
-6618,37,Company Invited,2,,Small Business,female,2.0,4.0,Deluxe,4.0,3.0,0,3,Manager,13.0,Married,No Car,1_child,30s
+6618,37,Company Invited,2,,Small Business,female,2.0,4.0,Deluxe,4.0,3.0,0,3,Manager,12.718474948713327,Married,No Car,1_child,30s
 6619,52,Self Enquiry,2,540.0,Small Business,male,2.0,5.0,Standard,4.0,2.0,0,3,Senior Manager,12.789937742236434,Single,No Car,1_child,50s
 6620,31,Company Invited,2,540.0,Small Business,male,2.0,5.0,Deluxe,4.0,3.0,0,3,Manager,12.710299545527791,Single,No Car,1_child,30s
 6621,50,Company Invited,2,900.0,Small Business,male,2.0,4.0,Standard,4.0,2.0,0,4,Senior Manager,12.765691290604371,Divorced,No Car,1_child,50s
@@ -3232,11 +3232,11 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6719,34,Self Enquiry,3,720.0,Small Business,female,3.0,5.0,Basic,4.0,2.0,0,2,Executive,12.653642125561102,Single,Has Car,1_child,30s
 6720,38,Self Enquiry,2,660.0,Large Business,male,1.0,1.0,Deluxe,4.0,1.0,0,4,Manager,12.593784425094354,Married,Has Car,0_child,30s
 6721,23,Self Enquiry,2,,Small Business,female,1.0,0.0,Basic,4.0,3.0,0,4,Executive,12.583038822867877,Single,Has Car,0_child,20s
-6722,32,Company Invited,2,600.0,Small Business,male,2.0,1.0,Basic,4.0,6.0,0,3,Executive,12.471359557975132,Married,Has Car,1_child,30s
+6722,31,Company Invited,2,600.0,Small Business,male,2.0,1.0,Basic,4.0,6.0,0,3,Executive,12.471359557975132,Married,Has Car,1_child,30s
 6723,36,Self Enquiry,2,1020.0,Small Business,male,3.0,4.0,Basic,4.0,2.0,1,4,Executive,12.645845778248258,Married,Has Car,2_child,30s
 6724,27,Company Invited,2,1260.0,Salaried,male,2.0,1.0,Deluxe,4.0,2.0,0,4,Manager,12.429220196836383,Married,No Car,1_child,20s
 6725,31,Self Enquiry,1,1920.0,Small Business,female,3.0,5.0,Deluxe,4.0,3.0,0,1,Manager,12.95972914714203,Divorced,Has Car,1_child,30s
-6726,37,Self Enquiry,1,600.0,Small Business,female,3.0,5.0,Basic,5.0,2.0,0,1,Executive,12.499715666175966,Divorced,No Car,2_child,30s
+6726,36,Self Enquiry,1,600.0,Small Business,female,3.0,5.0,Basic,5.0,2.0,0,1,Executive,12.499715666175966,Divorced,No Car,2_child,30s
 6727,30,Company Invited,1,600.0,Salaried,male,3.0,5.0,Deluxe,5.0,7.0,0,2,Manager,12.611541086966115,Married,No Car,1_child,30s
 6728,24,Self Enquiry,1,1500.0,Large Business,female,3.0,5.0,Basic,4.0,3.0,0,2,Executive,12.672400778407079,Married,Has Car,1_child,20s
 6729,34,Self Enquiry,1,600.0,Small Business,female,3.0,5.0,Basic,4.0,20.0,0,2,Executive,12.696662908384297,Single,No Car,2_child,30s
@@ -3260,7 +3260,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6747,39,Self Enquiry,2,1320.0,Salaried,male,2.0,3.0,Basic,4.0,5.0,0,2,Executive,12.611541086966115,Divorced,No Car,1_child,30s
 6748,50,Company Invited,3,420.0,Salaried,male,2.0,3.0,Standard,4.0,2.0,0,1,Senior Manager,12.873904582205107,Single,No Car,1_child,50s
 6749,33,Self Enquiry,3,780.0,Small Business,male,2.0,3.0,Standard,4.0,8.0,0,2,Senior Manager,12.899647234738028,Single,Has Car,1_child,30s
-6750,33,Self Enquiry,2,540.0,Large Business,male,2.0,3.0,Basic,4.0,8.0,0,2,Executive,12.454770876772299,Married,Has Car,0_child,30s
+6750,31,Self Enquiry,2,540.0,Large Business,male,2.0,3.0,Basic,4.0,8.0,0,2,Executive,12.454770876772299,Married,Has Car,0_child,30s
 6751,47,Self Enquiry,2,900.0,Salaried,male,2.0,3.0,Standard,4.0,7.0,0,2,Senior Manager,12.75403797249561,Single,Has Car,1_child,40s
 6752,24,Company Invited,2,900.0,Small Business,male,2.0,3.0,Basic,4.0,2.0,0,2,Executive,12.455238656503358,Single,Has Car,0_child,20s
 6753,42,Self Enquiry,3,960.0,Small Business,female,2.0,4.0,Basic,4.0,2.0,0,1,Executive,12.611541086966115,Divorced,No Car,0_child,40s
@@ -3403,7 +3403,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6890,58,Self Enquiry,2,420.0,Small Business,male,3.0,4.0,Deluxe,5.0,2.0,1,1,Manager,12.8079293066156,Divorced,No Car,0_child,50s
 6891,41,Self Enquiry,1,600.0,Salaried,male,3.0,4.0,Deluxe,4.0,5.0,0,2,Manager,12.899222326086994,Single,No Car,1_child,40s
 6892,39,Company Invited,1,300.0,Large Business,male,3.0,3.0,Standard,4.0,2.0,0,1,Senior Manager,12.782464075096115,Single,Has Car,1_child,30s
-6893,34,Self Enquiry,1,720.0,Small Business,female,3.0,4.0,Basic,4.0,2.0,0,2,Executive,13.0,Single,No Car,1_child,30s
+6893,34,Self Enquiry,1,720.0,Small Business,female,3.0,4.0,Basic,4.0,2.0,0,2,Executive,12.65090308099881,Single,No Car,1_child,30s
 6894,35,Self Enquiry,1,600.0,Small Business,female,3.0,3.0,Basic,4.0,2.0,0,2,Executive,12.493883459694384,Single,Has Car,1_child,30s
 6895,44,Self Enquiry,1,480.0,Large Business,female,3.0,3.0,Basic,4.0,3.0,0,2,Executive,12.510726135300516,Single,No Car,1_child,40s
 6896,42,Self Enquiry,1,780.0,Small Business,male,3.0,3.0,Deluxe,4.0,5.0,0,2,AVP,12.929812074724461,Single,No Car,1_child,40s
@@ -3455,7 +3455,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6942,57,Company Invited,1,600.0,Salaried,female,3.0,3.0,King,5.0,4.0,0,5,VP,13.10501577406918,Married,No Car,1_child,50s
 6943,27,Company Invited,1,420.0,Large Business,male,2.0,5.0,Basic,5.0,7.0,0,2,Executive,12.473083788820796,Single,No Car,0_child,20s
 6944,49,Self Enquiry,1,540.0,Salaried,male,3.0,3.0,Deluxe,5.0,4.0,0,4,AVP,13.252577273216534,Single,No Car,1_child,40s
-6945,34,Self Enquiry,1,480.0,Large Business,female,3.0,1.0,Basic,4.0,1.0,0,3,Executive,12.514369515378693,Married,Has Car,1_child,30s
+6945,33,Self Enquiry,1,480.0,Large Business,female,3.0,1.0,Basic,4.0,1.0,0,3,Executive,12.514369515378693,Married,Has Car,1_child,30s
 6946,44,Self Enquiry,1,960.0,Small Business,male,4.0,4.0,Basic,5.0,3.0,0,2,Executive,12.899222326086994,Divorced,No Car,1_child,40s
 6947,31,Self Enquiry,1,660.0,Salaried,male,4.0,2.0,Standard,5.0,5.0,0,1,Senior Manager,12.899222326086994,Divorced,No Car,3_child,30s
 6948,52,Self Enquiry,2,540.0,Large Business,male,4.0,4.0,Basic,4.0,7.0,0,2,Executive,12.830997193607217,Divorced,No Car,2_child,50s
@@ -3477,7 +3477,7 @@ id,Age,TypeofContact,CityTier,DurationOfPitch,Occupation,Gender,NumberOfPersonVi
 6964,38,Self Enquiry,1,900.0,Small Business,male,3.0,3.0,Deluxe,4.0,2.0,0,4,Manager,12.534174231517603,Married,Has Car,1_child,30s
 6965,49,Self Enquiry,3,600.0,Small Business,male,4.0,4.0,Standard,4.0,8.0,0,5,Senior Manager,12.797812596998575,Married,Has Car,2_child,40s
 6966,30,Self Enquiry,1,900.0,Salaried,male,4.0,2.0,Basic,4.0,3.0,0,4,Executive,13.074896437387546,Married,No Car,1_child,30s
-6967,36,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Deluxe,3.0,1.0,0,2,Manager,13.0,Single,No Car,1_child,30s
+6967,36,Company Invited,2,1020.0,Small Business,male,2.0,3.0,Deluxe,3.0,1.0,0,2,Manager,12.669837373854167,Single,No Car,1_child,30s
 6968,40,Company Invited,2,1800.0,Salaried,male,3.0,4.0,Deluxe,3.0,16.0,0,4,Manager,12.671035466221207,Single,No Car,2_child,40s
 6969,29,Company Invited,1,960.0,Small Business,male,3.0,4.0,Deluxe,3.0,2.0,0,4,Manager,12.993258743637433,Married,Has Car,2_child,20s
 6970,32,Company Invited,2,780.0,Small Business,female,1.0,3.0,Standard,3.0,1.0,0,2,Senior Manager,12.611541086966115,Divorced,Has Car,0_child,30s
