@@ -108,3 +108,13 @@ def make_TravelCost_PreferredPropertyStar(star):
         return 1.5
     else:
         return 2.0
+
+def make_MonetarySeg(monetary):
+    if monetary <= 12:
+        return 1
+    elif monetary <= 20:
+        return 2
+    elif monetary <= 30:
+        return 3
+    else:
+        return 4
