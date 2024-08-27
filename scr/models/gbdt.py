@@ -6,7 +6,7 @@ import lightgbm as lgb
 class Model1_CatBoost_1:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/(2992+497),
+            'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
             'iterations': 7000,
@@ -35,7 +35,7 @@ class Model1_CatBoost_1:
 class Model1_CatBoost_2:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/(2992+497),
+            'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
             'iterations': 7000,
@@ -64,7 +64,7 @@ class Model1_CatBoost_2:
 class Model1_CatBoost_3:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/(2992+497),
+            'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
             'iterations': 7000,
@@ -93,6 +93,7 @@ class Model1_CatBoost_3:
 class Model1_XGBoost_1:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -127,6 +128,7 @@ class Model1_XGBoost_1:
 class Model1_XGBoost_2:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -161,6 +163,7 @@ class Model1_XGBoost_2:
 class Model1_XGBoost_3:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -195,6 +198,7 @@ class Model1_XGBoost_3:
 class Model1_LightGBM_1:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
@@ -227,6 +231,7 @@ class Model1_LightGBM_1:
 class Model1_LightGBM_2:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
@@ -259,6 +264,7 @@ class Model1_LightGBM_2:
 class Model1_LightGBM_3:
     def __init__(self):
         params = {
+            'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
