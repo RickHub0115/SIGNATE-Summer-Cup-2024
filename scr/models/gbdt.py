@@ -190,3 +190,102 @@ class Model1_XGBoost_3:
     def predict(self, x):
         dtest = xgb.DMatrix(x)
         return self.model.predict(dtest)
+
+
+class Model1_LightGBM_1:
+    def __init__(self):
+        params = {
+            'objective': 'binary',
+            'metric': 'auc',
+            'learning_rate': 0.005,
+            'max_depth': 3,
+            'min_child_weight': 1,
+            'feature_fraction': 0.8,
+            'bagging_fraction': 0.8,
+            'bagging_freq': 5,
+            'random_state': 42,
+        }
+        
+        self.params = params
+        self.model = None
+
+    def fit(self, tr_x, tr_y, va_x=None, va_y=None):
+        dtrain = lgb.Dataset(tr_x, label=tr_y)
+        dval = lgb.Dataset(va_x, label=va_y, reference=dtrain)
+        self.model = lgb.train(
+            self.params, 
+            dtrain, 
+            valid_sets=[dtrain, dval],
+            valid_names=['train', 'valid'],
+            num_boost_rounds=7000,
+            verbose_eval=100,
+        )
+
+    def predict(self, x):
+        return self.model.predict(x)
+
+
+class Model1_LightGBM_2:
+    def __init__(self):
+        params = {
+            'objective': 'binary',
+            'metric': 'auc',
+            'learning_rate': 0.005,
+            'max_depth': 5,
+            'min_child_weight': 1,
+            'feature_fraction': 0.8,
+            'bagging_fraction': 0.8,
+            'bagging_freq': 5,
+            'random_state': 42,
+        }
+        
+        self.params = params
+        self.model = None
+
+    def fit(self, tr_x, tr_y, va_x=None, va_y=None):
+        dtrain = lgb.Dataset(tr_x, label=tr_y)
+        dval = lgb.Dataset(va_x, label=va_y, reference=dtrain)
+        self.model = lgb.train(
+            self.params, 
+            dtrain, 
+            valid_sets=[dtrain, dval],
+            valid_names=['train', 'valid'],
+            num_boost_rounds=7000,
+            verbose_eval=100,
+        )
+
+    def predict(self, x):
+        return self.model.predict(x)
+
+
+class Model1_LightGBM_3:
+    def __init__(self):
+        params = {
+            'objective': 'binary',
+            'metric': 'auc',
+            'learning_rate': 0.005,
+            'max_depth': 7,
+            'min_child_weight': 1,
+            'feature_fraction': 0.8,
+            'bagging_fraction': 0.8,
+            'bagging_freq': 5,
+            'random_state': 42,
+        }
+        
+        self.params = params
+        self.model = None
+
+    def fit(self, tr_x, tr_y, va_x=None, va_y=None):
+        dtrain = lgb.Dataset(tr_x, label=tr_y)
+        dval = lgb.Dataset(va_x, label=va_y, reference=dtrain)
+        self.model = lgb.train(
+            self.params, 
+            dtrain, 
+            valid_sets=[dtrain, dval],
+            valid_names=['train', 'valid'],
+            num_boost_rounds=7000,
+            verbose_eval=100,
+        )
+
+    def predict(self, x):
+        return self.model.predict(x)
