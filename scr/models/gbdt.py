@@ -217,7 +217,7 @@ class Model1_LightGBM_1:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_rounds=70,
+            num_boost_round=70,
             verbose_eval=100,
         )
 
@@ -250,7 +250,7 @@ class Model1_LightGBM_2:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_rounds=70,
+            num_boost_round=70,
             verbose_eval=100,
         )
 
@@ -283,7 +283,7 @@ class Model1_LightGBM_3:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_rounds=70,
+            num_boost_round=70,
             verbose_eval=100,
         )
 
