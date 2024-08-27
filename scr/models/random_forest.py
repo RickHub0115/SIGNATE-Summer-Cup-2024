@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 class Model1_RandomForest_1:
     def __init__(self):
         params = {
+            'criterion': 'gini',
             'n_estimators': 100,
             'max_depth': 3,
             'min_samples_split': 2,
@@ -25,6 +26,7 @@ class Model1_RandomForest_1:
 class Model1_RandomForest_2:
     def __init__(self):
         params = {
+            'criterion': 'gini',
             'n_estimators': 100,
             'max_depth': 6,
             'min_samples_split': 2,
