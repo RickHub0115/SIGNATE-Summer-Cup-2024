@@ -94,8 +94,7 @@ class Model1_XGBoost_1:
     def __init__(self):
         params = {
             'objective': 'binary:logistic',
-            'eval_metric': 'logloss',
-            'num_boost_round': 70,
+            'eval_metric': 'auc',
             'learning_rate': 0.1,
             'max_depth': 3,
             'min_child_weight': 1,
@@ -116,7 +115,8 @@ class Model1_XGBoost_1:
             self.params, 
             dtrain,  
             evals=evals, 
-            verbose_eval=100
+            verbose_eval=100,
+            num_boost_round=70
         )
 
     def predict(self, x):
@@ -128,8 +128,7 @@ class Model1_XGBoost_2:
     def __init__(self):
         params = {
             'objective': 'binary:logistic',
-            'eval_metric': 'logloss',
-            'num_boost_round': 70,
+            'eval_metric': 'auc',
             'learning_rate': 0.1,
             'max_depth': 5,
             'min_child_weight': 1,
@@ -150,7 +149,8 @@ class Model1_XGBoost_2:
             self.params, 
             dtrain,  
             evals=evals, 
-            verbose_eval=100
+            verbose_eval=100,
+            num_boost_round=70
         )
 
     def predict(self, x):
@@ -162,8 +162,7 @@ class Model1_XGBoost_3:
     def __init__(self):
         params = {
             'objective': 'binary:logistic',
-            'eval_metric': 'logloss',
-            'num_boost_round': 70,
+            'eval_metric': 'auc',
             'learning_rate': 0.1,
             'max_depth': 7,
             'min_child_weight': 1,
@@ -184,7 +183,8 @@ class Model1_XGBoost_3:
             self.params, 
             dtrain,  
             evals=evals, 
-            verbose_eval=100
+            verbose_eval=100,
+            num_boost_round=70
         )
 
     def predict(self, x):
