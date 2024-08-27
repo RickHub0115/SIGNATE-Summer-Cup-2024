@@ -128,11 +128,16 @@ class Model1_TabNet_1:
         )
 
     def fit(self, tr_x, tr_y, va_x=None, va_y=None, max_epochs=50, batch_size=1024, virtual_batch_size=128):
+        tr_x = tr_x.values
+        tr_y = tr_y.values
+        va_x = va_x.values if va_x is not None else None
+        va_y = va_y.values if va_y is not None else None
+        
         self.model.fit(
             X_train=tr_x, y_train=tr_y,
             eval_set=[(va_x, va_y)] if va_x is not None and va_y is not None else [],
             max_epochs=max_epochs,
-            patience=10,
+            #patience=10,
             batch_size=batch_size, 
             virtual_batch_size=virtual_batch_size,
             num_workers=0,
@@ -140,7 +145,7 @@ class Model1_TabNet_1:
         )
 
     def predict(self, x):
-        return self.model.predict_proba(x)
+        return self.model.predict_proba(x.values)[:, 1]
 
 
 class Model1_TabNet_2:
@@ -165,11 +170,16 @@ class Model1_TabNet_2:
         )
 
     def fit(self, tr_x, tr_y, va_x=None, va_y=None, max_epochs=100, batch_size=1024, virtual_batch_size=128):
+        tr_x = tr_x.values
+        tr_y = tr_y.values
+        va_x = va_x.values if va_x is not None else None
+        va_y = va_y.values if va_y is not None else None
+        
         self.model.fit(
             X_train=tr_x, y_train=tr_y,
             eval_set=[(va_x, va_y)] if va_x is not None and va_y is not None else [],
             max_epochs=max_epochs,
-            patience=15,
+            #patience=15,
             batch_size=batch_size, 
             virtual_batch_size=virtual_batch_size,
             num_workers=0,
@@ -177,7 +187,4 @@ class Model1_TabNet_2:
         )
 
     def predict(self, x):
-        return self.model.predict(x)
-    
-    def predict_proba(self, x):
-        return self.model.predict_proba(x)
+        return self.model.predict_proba(x.values)[:, 1]

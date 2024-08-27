@@ -9,7 +9,7 @@ class Model1_CatBoost_1:
             'scale_pos_weight': 497/(2992+497),
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 70,
+            'iterations': 7000,
             'learning_rate': 0.005,
             'depth': 3,
             # 'cat_features': category_columns,
@@ -38,7 +38,7 @@ class Model1_CatBoost_2:
             'scale_pos_weight': 497/(2992+497),
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 70,
+            'iterations': 7000,
             'learning_rate': 0.005,
             'depth': 5,
             # 'cat_features': category_columns,
@@ -67,7 +67,7 @@ class Model1_CatBoost_3:
             'scale_pos_weight': 497/(2992+497),
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 70,
+            'iterations': 7000,
             'learning_rate': 0.005,
             'depth': 7,
             # 'cat_features': category_columns,
@@ -116,7 +116,7 @@ class Model1_XGBoost_1:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=70
+            num_boost_round=7000
         )
 
     def predict(self, x):
@@ -150,7 +150,7 @@ class Model1_XGBoost_2:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=70
+            num_boost_round=7000
         )
 
     def predict(self, x):
@@ -184,7 +184,7 @@ class Model1_XGBoost_3:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=70
+            num_boost_round=7000
         )
 
     def predict(self, x):
@@ -217,8 +217,7 @@ class Model1_LightGBM_1:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=70,
-            verbose_eval=100,
+            num_boost_round=7000
         )
 
     def predict(self, x):
@@ -250,8 +249,7 @@ class Model1_LightGBM_2:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=70,
-            verbose_eval=100,
+            num_boost_round=7000
         )
 
     def predict(self, x):
@@ -283,8 +281,7 @@ class Model1_LightGBM_3:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=70,
-            verbose_eval=100,
+            num_boost_round=7000
         )
 
     def predict(self, x):
