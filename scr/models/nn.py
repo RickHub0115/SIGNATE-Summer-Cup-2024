@@ -9,9 +9,7 @@ from pytorch_tabnet.tab_model import TabNetClassifier
 
 
 class Model1_NN_1:
-    def __init__(self):
-        input_shape=62    # 特徴量の数
-        
+    def __init__(self, input_shape):
         self.model = Sequential()
         self.model.add(Dense(256, activation='relu', input_shape=(input_shape,), kernel_regularizer=l2(0.001)))
         self.model.add(Dropout(0.2))
@@ -34,9 +32,7 @@ class Model1_NN_1:
 
 
 class Model1_NN_2:
-    def __init__(self):
-        input_shape=62    # 特徴量の数
-        
+    def __init__(self, input_shape):        
         self.model = Sequential()
         self.model.add(Dense(256, activation='relu', input_shape=(input_shape,), kernel_regularizer=l2(0.001)))
         self.model.add(Dropout(0.2))
@@ -148,7 +144,7 @@ class Model1_TabNet_1:
 
 
 class Model1_TabNet_2:
-    def __init__(self, input_dim, output_dim):
+    def __init__(self, input_dim, output_dim=1):
         """
         :param input_dim: 入力データの特徴量数
         :param output_dim: 出力ユニット数（通常は1）
