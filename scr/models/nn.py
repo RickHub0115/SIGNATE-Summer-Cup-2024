@@ -21,10 +21,11 @@ class Model1_NN_1:
         self.model.fit(
             tr_x,
             tr_y,
+            class_weight={0: 2992, 1: 497},
             batch_size=batch_size,
             epochs=epochs, 
             verbose=1,
-            validation_data=(va_x, va_y)
+            validation_data=(va_x, va_y),
             )
 
     def predict(self, x):
@@ -48,6 +49,7 @@ class Model1_NN_2:
         self.model.fit(
             tr_x,
             tr_y,
+            class_weight={0: 2992, 1: 497},
             batch_size=batch_size,
             epochs=epochs, 
             verbose=1,
@@ -71,6 +73,7 @@ class Model1_NN_all_1:
         self.model.fit(
             tr_x,
             tr_y,
+            class_weight={0: 2992, 1: 497},
             batch_size=batch_size,
             epochs=epochs, 
             verbose=1,
@@ -96,6 +99,7 @@ class Model1_NN_all_2:
         self.model.fit(
             tr_x,
             tr_y,
+            class_weight={0: 2992, 1: 497},
             batch_size=batch_size,
             epochs=epochs, 
             verbose=1,
