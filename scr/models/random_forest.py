@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 class Model1_RandomForest_1:
     def __init__(self):
         params = {
-            'class_weight': 'balanced',
+            #'class_weight': 'balanced',
             'criterion': 'gini',
             'n_estimators': 500,
             'max_depth': 3,
@@ -27,7 +27,7 @@ class Model1_RandomForest_1:
 class Model1_RandomForest_2:
     def __init__(self):
         params = {
-            'class_weight': 'balanced',
+            #'class_weight': 'balanced',
             'criterion': 'gini',
             'n_estimators': 500,
             'max_depth': 5,
@@ -49,7 +49,7 @@ class Model1_RandomForest_2:
 class Model1_RandomForest_3:
     def __init__(self):
         params = {
-            'class_weight': 'balanced',
+            #'class_weight': 'balanced',
             'criterion': 'gini',
             'n_estimators': 500,
             'max_depth': 7,

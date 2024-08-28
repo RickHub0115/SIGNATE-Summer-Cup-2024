@@ -6,10 +6,10 @@ import lightgbm as lgb
 class Model1_CatBoost_1:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 7000,
+            'iterations': 7,
             'learning_rate': 0.005,
             'depth': 3,
             # 'cat_features': category_columns,
@@ -35,10 +35,10 @@ class Model1_CatBoost_1:
 class Model1_CatBoost_2:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 7000,
+            'iterations': 7,
             'learning_rate': 0.005,
             'depth': 5,
             # 'cat_features': category_columns,
@@ -64,10 +64,10 @@ class Model1_CatBoost_2:
 class Model1_CatBoost_3:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'loss_function': 'Logloss',
             'eval_metric': 'AUC',
-            'iterations': 7000,
+            'iterations': 7,
             'learning_rate': 0.005,
             'depth': 7,
             # 'cat_features': category_columns,
@@ -93,7 +93,7 @@ class Model1_CatBoost_3:
 class Model1_XGBoost_1:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -117,7 +117,7 @@ class Model1_XGBoost_1:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
@@ -128,7 +128,7 @@ class Model1_XGBoost_1:
 class Model1_XGBoost_2:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -152,7 +152,7 @@ class Model1_XGBoost_2:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
@@ -163,7 +163,7 @@ class Model1_XGBoost_2:
 class Model1_XGBoost_3:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
             'learning_rate': 0.1,
@@ -187,7 +187,7 @@ class Model1_XGBoost_3:
             dtrain,  
             evals=evals, 
             verbose_eval=100,
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
@@ -198,7 +198,7 @@ class Model1_XGBoost_3:
 class Model1_LightGBM_1:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
@@ -221,7 +221,7 @@ class Model1_LightGBM_1:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
@@ -231,7 +231,7 @@ class Model1_LightGBM_1:
 class Model1_LightGBM_2:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
@@ -254,7 +254,7 @@ class Model1_LightGBM_2:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
@@ -264,7 +264,7 @@ class Model1_LightGBM_2:
 class Model1_LightGBM_3:
     def __init__(self):
         params = {
-            'scale_pos_weight': 497/3489,
+            #'scale_pos_weight': 497/3489,
             'objective': 'binary',
             'metric': 'auc',
             'learning_rate': 0.005,
@@ -287,7 +287,7 @@ class Model1_LightGBM_3:
             dtrain, 
             valid_sets=[dtrain, dval],
             valid_names=['train', 'valid'],
-            num_boost_round=7000
+            num_boost_round=7
         )
 
     def predict(self, x):
