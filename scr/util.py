@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import re
 import unicodedata
@@ -295,3 +296,275 @@ def normalize_customer_info(info):
                 normalized_parts.append('Children')
 
     return ', '.join(normalized_parts)
+
+"""
+def mapping_first_category(df_train, df_test):
+
+    mapping = {
+        'No': 0,
+        'Self Enquiry': 1,
+        'Company Invited': 2
+    }
+    df_train.loc[:, 'TypeofContact'] = df_train.loc[:, 'TypeofContact'].map(mapping)
+    df_test.loc[:, 'TypeofContact'] = df_test.loc[:, 'TypeofContact'].map(mapping)
+
+    mapping = {
+        'Salaried': 0,
+        'Small Business': 1,
+        'Large Business': 2
+    }
+    df_train.loc[:, 'Occupation'] = df_train.loc[:, 'Occupation'].map(mapping)
+    df_test.loc[:, 'Occupation'] = df_test.loc[:, 'Occupation'].map(mapping)
+
+    mapping = {
+        'male': 0,
+        'female': 1
+    }
+    df_train.loc[:, 'Gender'] = df_train.loc[:, 'Gender'].map(mapping)
+    df_test.loc[:, 'Gender'] = df_test.loc[:, 'Gender'].map(mapping)
+
+    mapping = {
+        'Super Deluxe': 0,
+        'Standard': 1,
+        'King': 2,
+        'Deluxe': 3,
+        'Basic': 4
+    }
+    df_train.loc[:, 'ProductPitched'] = df_train.loc[:, 'ProductPitched'].map(mapping)
+    df_test.loc[:, 'ProductPitched'] = df_test.loc[:, 'ProductPitched'].map(mapping)
+
+    mapping = {
+        'Manager': 0,
+        'VP': 1,
+        'AVP': 2,
+        'Senior Manager': 3,
+        'Executive': 4
+    }
+
+    df_train.loc[:, 'Designation'] = df_train.loc[:, 'Designation'].map(mapping)
+    df_test.loc[:, 'Designation'] = df_test.loc[:, 'Designation'].map(mapping)
+
+    mapping = {
+        'Married': 0,
+        'Single': 1,
+        'Divorced': 2,
+    }
+    df_train.loc[:, 'Marry'] = df_train.loc[:, 'Marry'].map(mapping)
+    df_test.loc[:, 'Marry'] = df_test.loc[:, 'Marry'].map(mapping)
+
+    mapping = {
+        'No Car': 0,
+        'Has Car': 1,
+    }
+    df_train.loc[:, 'Car'] = df_train.loc[:, 'Car'].map(mapping)
+    df_test.loc[:, 'Car'] = df_test.loc[:, 'Car'].map(mapping)
+
+    mapping = {
+        '0_child': 0,
+        '1_child': 1,
+        '2_child': 2,
+        '3_child': 3
+    }
+    df_train.loc[:, 'Child'] = df_train.loc[:, 'Child'].map(mapping)
+    df_test.loc[:, 'Child'] = df_test.loc[:, 'Child'].map(mapping)
+    
+    return df_train, df_test
+"""
+
+"""
+def mapping_first_category_plus_agegroup(df_train, df_test):
+
+    mapping = {
+        'No': 0,
+        'Self Enquiry': 1,
+        'Company Invited': 2
+    }
+    df_train.loc[:, 'TypeofContact'] = df_train.loc[:, 'TypeofContact'].map(mapping)
+    df_test.loc[:, 'TypeofContact'] = df_test.loc[:, 'TypeofContact'].map(mapping)
+
+    mapping = {
+        'Salaried': 0,
+        'Small Business': 1,
+        'Large Business': 2
+    }
+    df_train.loc[:, 'Occupation'] = df_train.loc[:, 'Occupation'].map(mapping)
+    df_test.loc[:, 'Occupation'] = df_test.loc[:, 'Occupation'].map(mapping)
+
+    mapping = {
+        'male': 0,
+        'female': 1
+    }
+    df_train.loc[:, 'Gender'] = df_train.loc[:, 'Gender'].map(mapping)
+    df_test.loc[:, 'Gender'] = df_test.loc[:, 'Gender'].map(mapping)
+
+    mapping = {
+        'Super Deluxe': 0,
+        'Standard': 1,
+        'King': 2,
+        'Deluxe': 3,
+        'Basic': 4
+    }
+    df_train.loc[:, 'ProductPitched'] = df_train.loc[:, 'ProductPitched'].map(mapping)
+    df_test.loc[:, 'ProductPitched'] = df_test.loc[:, 'ProductPitched'].map(mapping)
+
+    mapping = {
+        'Manager': 0,
+        'VP': 1,
+        'AVP': 2,
+        'Senior Manager': 3,
+        'Executive': 4
+    }
+
+    df_train.loc[:, 'Designation'] = df_train.loc[:, 'Designation'].map(mapping)
+    df_test.loc[:, 'Designation'] = df_test.loc[:, 'Designation'].map(mapping)
+
+    mapping = {
+        'Married': 0,
+        'Single': 1,
+        'Divorced': 2,
+    }
+    df_train.loc[:, 'Marry'] = df_train.loc[:, 'Marry'].map(mapping)
+    df_test.loc[:, 'Marry'] = df_test.loc[:, 'Marry'].map(mapping)
+
+    mapping = {
+        'No Car': 0,
+        'Has Car': 1,
+    }
+    df_train.loc[:, 'Car'] = df_train.loc[:, 'Car'].map(mapping)
+    df_test.loc[:, 'Car'] = df_test.loc[:, 'Car'].map(mapping)
+
+    mapping = {
+        '0_child': 0,
+        '1_child': 1,
+        '2_child': 2,
+        '3_child': 3
+    }
+    df_train.loc[:, 'Child'] = df_train.loc[:, 'Child'].map(mapping)
+    df_test.loc[:, 'Child'] = df_test.loc[:, 'Child'].map(mapping)
+    
+    mapping = {
+        '10s': 1,
+        '20s': 2,
+        '30s': 3,
+        '40s': 4,
+        '50s': 5,
+        '60s': 6
+    }
+    df_train.loc[:, 'AgeGroup'] = df_train.loc[:, 'AgeGroup'].map(mapping)
+    df_test.loc[:, 'AgeGroup'] = df_test.loc[:, 'AgeGroup'].map(mapping)
+    return df_train, df_test
+"""
+
+def mapping_columns_if_exist(df):
+    mappings = {
+        'TypeofContact': {'No': 0, 'Self Enquiry': 1, 'Company Invited': 2},
+        'Occupation': {'Salaried': 0, 'Small Business': 1, 'Large Business': 2},
+        'Gender': {'male': 1, 'female': 0},
+        'ProductPitched': {'Super Deluxe': 0, 'Standard': 1, 'King': 2, 'Deluxe': 3, 'Basic': 4},
+        'Designation': {'Manager': 0, 'VP': 1, 'AVP': 2, 'Senior Manager': 3, 'Executive': 4},
+        'Marry': {'Married': 0, 'Single': 1, 'Divorced': 2},
+        'Car': {'No Car': 0, 'Has Car': 1},
+        'Child': {'0_child': 0, '1_child': 1, '2_child': 2, '3_child': 3},
+        'AgeGroup': {'10s': 1, '20s': 2, '30s': 3, '40s': 4, '50s': 5, '60s': 6}
+    }
+
+    # Apply mappings to each column if it exists in both dataframes
+    for column, mapping in mappings.items():
+        if column in df.columns:
+            df[column] = df[column].map(mapping)
+
+    return df
+
+def mapping_EconomicSegment(df):
+    mapping = {
+    'Large BusinessExecutive2': 0,
+    'SalariedSenior Manager1': 1,
+    'Large BusinessExecutive1': 2,
+    'Small BusinessSenior Manager2': 3,
+    'Small BusinessExecutive3': 4,
+    'Small BusinessExecutive2': 5,
+    'Small BusinessAVP3': 6,
+    'Large BusinessSenior Manager1': 7,
+    'Small BusinessSenior Manager1': 8,
+    'Small BusinessAVP1': 9,
+    'Small BusinessAVP2': 10,
+    'Small BusinessExecutive1': 11,
+    'SalariedExecutive2': 12,
+    'SalariedExecutive1': 13,
+    'SalariedAVP2': 14,
+    'SalariedManager2': 15,
+    'SalariedManager1': 16,
+    'SalariedAVP1': 17,
+    'SalariedAVP3': 18,
+    'SalariedSenior Manager3': 19,
+    'SalariedSenior Manager2': 20,
+    'Small BusinessManager2': 21,
+    'Small BusinessSenior Manager3': 22,
+    'SalariedExecutive3': 23,
+    'Small BusinessVP3': 24,
+    'Large BusinessExecutive3': 25,
+    'SalariedManager3': 26,
+    'Large BusinessSenior Manager3': 27,
+    'Large BusinessAVP2': 28,
+    'SalariedVP1': 29,
+    'SalariedVP2': 30,
+    'Large BusinessAVP1': 31,
+    'Small BusinessVP1': 32,
+    'Large BusinessSenior Manager2': 33,
+    'Large BusinessVP1': 34,
+    'Small BusinessManager3': 35,
+    'Small BusinessVP2': 36,
+    'Small BusinessManager1': 37,  # ここで指定されたラベル
+    'SalariedVP3': 38,
+    'Large BusinessManager2': 39,
+    'Large BusinessManager1': 40,
+    'Large BusinessVP2': 41,
+    'Large BusinessManager3': 42,
+    'Large BusinessAVP3': 43
+    }
+    df['EconomicSegment'] = df['EconomicSegment'].map(mapping)
+    
+    return df
+
+def feature_to_int(df_train, df_test):
+    column_list_train = df_train.columns
+    column_list_test = df_test.columns
+
+    for col in column_list_train:
+        #df_train[col] = df_train[col].astype(float)
+        df_train[col] = df_train[col].astype(int)
+
+    for col in column_list_test:
+        #df_train[col] = df_train[col].astype(float)
+        df_test[col] = df_test[col].astype(int)
+    
+    return df_train, df_test
+
+def age_to_agegroup(age):
+    if age == 0:
+        return np.nan
+    elif age < 20:
+        return "10s"
+    elif age < 30:
+        return "20s"
+    elif age < 40:
+        return "30s"
+    elif age < 50:
+        return "40s"
+    elif age < 60:
+        return "50s"
+    else:
+        return "60s"
+
+def convert_type(df_train, df_test, float_columns, int_columns):
+    for col in float_columns:
+        if col in df_train.columns:
+            df_train[col] = df_train[col].astype(float)
+        if col in df_test.columns:
+            df_test[col] = df_test[col].astype(float)
+    for col in int_columns:
+        if col in df_train.columns:
+            df_train[col] = df_train[col].astype(int)
+        if col in df_test.columns:
+            df_test[col] = df_test[col].astype(int)
+    return df_train, df_test
